@@ -1,4 +1,4 @@
-import { fetchAnalyticsData } from '../../../services/platforms/google';
+ import { fetchAnalyticsData } from '../../../services/platforms/google';
 import supabase from '../../../utils/supabaseClient';
 
 
