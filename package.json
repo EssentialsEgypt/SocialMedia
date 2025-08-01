@@ -9,6 +9,7 @@
     "refresh-tokens": "node jobs/refreshTokens.js"
   },
   "dependencies": {
+"lucide-react": "^0.263.0",
     "@supabase/supabase-js": "^2.53.0",
     "jsonwebtoken": "^9.0.2",
     "next": "^15.3.2",
