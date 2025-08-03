@@ -1,14 +1,23 @@
 "use client"
 
-import { useState } from "react"
-import { Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { BarChart3, Instagram, Facebook, Youtube, Mail, MessageCircle, ShoppingCart, TrendingUp, Calendar, Users, DollarSign } from "lucide-react"
+"use client"
 
-function Placeholder({ title, description }: { title: string; description: string }) {
+import { useState, useEffect } from "react"
+import { Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider } from "@/components/ui/sidebar"
+import { BarChart3, Instagram, Facebook, Youtube, Mail, MessageCircle, ShoppingCart, TrendingUp } from "lucide-react"
+import supabase from "@/utils/supabaseClient"
+
+function AlertCard({ alerts }: { alerts: Array<{ id: string; message: string }> }) {
   return (
-    <div className="p-6">
-      <h2 className="text-3xl font-bold mb-4">{title}</h2>
-      <p className="text-lg text-muted-foreground">{description}</p>
+    <div className="bg-yellow-100 border border-yellow-400 text-yellow-900 p-4 rounded-md shadow-md">
+      <h3 className="text-xl font-semibold mb-2">AI Team Alerts</h3>
+      <ul className="list-disc list-inside space-y-1">
+        {alerts.length === 0 ? (
+          <li>No active alerts</li>
+        ) : (
+          alerts.map((alert) => <li key={alert.id}>{alert.message}</li>)
+        )}
+      </ul>
     </div>
   )
 }
@@ -26,11 +35,37 @@ const sidebarItems = [
 
 export function Phase1MainDashboard() {
   const [activeTab, setActiveTab] = useState("overview")
+  const [alerts, setAlerts] = useState<Array<{ id: string; message: string }>>([])
+
+  useEffect(() => {
+    async function fetchAlerts() {
+      const { data, error } = await supabase
+        .from("alerts")
+        .select("id, message")
+        .eq("status", "pending")
+        .order("created_at", { ascending: false })
+        .limit(3)
+      if (!error && data) {
+        setAlerts(data)
+      }
+    }
+    fetchAlerts()
+  }, [])
 
   const renderContent = () => {
     switch (activeTab) {
       case "overview":
-        return <Placeholder title="Overview Dashboard" description="Main summary panel with KPIs, trendline, top platforms, goals, and alerts." />
+        return (
+          <>
+            <AlertCard alerts={alerts} />
+            <div className="mt-6 p-6 border rounded-md bg-white shadow">
+              <h2 className="text-3xl font-bold mb-4">Overview Dashboard</h2>
+              <p className="text-lg text-muted-foreground">
+                Main summary panel with KPIs, trendline, top platforms, goals, and alerts.
+              </p>
+            </div>
+          </>
+        )
       case "instagram":
         return <Placeholder title="Instagram Analytics" description="Follower growth, engagement metrics, reels, heatmap, top posts, story insights, hashtag performance." />
       case "facebook":
@@ -46,7 +81,17 @@ export function Phase1MainDashboard() {
       case "sales":
         return <Placeholder title="Sales Attribution & Conversion Tracking" description="Funnel chart, attribution model, UTM performance, product sales, conversion ratios." />
       default:
-        return <Placeholder title="Overview Dashboard" description="Main summary panel with KPIs, trendline, top platforms, goals, and alerts." />
+        return (
+          <>
+            <AlertCard alerts={alerts} />
+            <div className="mt-6 p-6 border rounded-md bg-white shadow">
+              <h2 className="text-3xl font-bold mb-4">Overview Dashboard</h2>
+              <p className="text-lg text-muted-foreground">
+                Main summary panel with KPIs, trendline, top platforms, goals, and alerts.
+              </p>
+            </div>
+          </>
+        )
     }
   }
 
@@ -80,5 +125,14 @@ export function Phase1MainDashboard() {
         <main className="flex-1 overflow-auto p-6">{renderContent()}</main>
       </div>
     </SidebarProvider>
+  )
+}
+
+function Placeholder({ title, description }: { title: string; description: string }) {
+  return (
+    <div className="p-6">
+      <h2 className="text-3xl font-bold mb-4">{title}</h2>
+      <p className="text-lg text-muted-foreground">{description}</p>
+    </div>
   )
 }

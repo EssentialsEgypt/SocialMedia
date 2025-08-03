@@ -21,48 +21,96 @@ export function SocialMediaManager() {
   const [postingSchedule, setPostingSchedule] = useState("🤖 AI Suggested")
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [connectionStatus, setConnectionStatus] = useState({
+    facebook: false,
+    google: false
+  })
+
+  // Mock data for when connections are not available
+  const mockData = {
+    posts: [
+      { id: 1, content: "Welcome to our Social Media Manager! 🎉", scheduled: true },
+      { id: 2, content: "Connect your social accounts to see real data", scheduled: false },
+      { id: 3, content: "Demo post showing scheduled content", scheduled: true },
+    ],
+    comments: [
+      { id: 1, content: "👍 Great platform!", flagged: false },
+      { id: 2, content: "Love the new features", flagged: false },
+      { id: 3, content: "⚠️ This looks like spam", flagged: true },
+    ],
+    dms: [
+      { id: 1, sender: "Customer1", message: "Hi, I'm interested in your services", replied: false },
+      { id: 2, sender: "Partner", message: "Let's discuss collaboration", replied: true },
+      { id: 3, sender: "Follower", message: "Thanks for the great content!", replied: true },
+    ],
+    engagement: { likes: 245, comments: 67, shares: 43, likesChange: 15, commentsChange: 8, sharesChange: 5 },
+    alerts: [
+      { id: 1, type: "info", message: "📊 Connect your social accounts to see real-time data" },
+      { id: 2, type: "viral", message: "🔥 Your welcome post is performing well!" },
+      { id: 3, type: "flagged", message: "🛑 1 comment flagged for review" },
+    ]
+  }
 
   useEffect(() => {
     async function loadData() {
       setLoading(true)
       setError(null)
+      
+      let facebookConnected = false
+      let googleConnected = false
+      
       try {
-        // Fetch Facebook data
-        const fbData = await fetchFacebookData(1) // Replace 1 with actual user_id
-        // Process fbData to extract posts, comments, dms, engagement, alerts as needed
-        // Placeholder example:
-        setPosts([
-          { id: 1, content: "Facebook Post 1", scheduled: true },
-          { id: 2, content: "Facebook Post 2", scheduled: false },
-        ])
-        setComments([
-          { id: 1, content: "👍 Great post!", flagged: false },
-          { id: 2, content: "⚠️ Spam comment", flagged: true },
-        ])
-        setDms([
-          { id: 1, sender: "User1", message: "Hello!", replied: false },
-          { id: 2, sender: "User2", message: "Price?", replied: true },
-        ])
-        setEngagement({ likes: 120, comments: 45, shares: 30, likesChange: 10, commentsChange: 6, sharesChange: -2 })
-        setAlerts([
-          { id: 1, type: "viral", message: "🔥 Post 1 is going viral!" },
-          { id: 2, type: "flagged", message: "🛑 Comment 2 flagged as spam multiple times" },
-        ])
+        // Try to fetch Facebook data
+        try {
+          const fbData = await fetchFacebookData(1) // Replace 1 with actual user_id
+          facebookConnected = true
+          // Process real Facebook data here when connection exists
+          console.log('Facebook data loaded:', fbData)
+        } catch (fbError: any) {
+          console.log('Facebook connection not available:', fbError?.message || 'Unknown error')
+          facebookConnected = false
+        }
 
-        // Fetch Google Ads data
-        const googleAdsData = await fetchGoogleAdsData(1) // Replace 1 with actual user_id
-        // Process googleAdsData as needed
+        // Try to fetch Google data
+        try {
+          const googleAdsData = await fetchGoogleAdsData(1) // Replace 1 with actual user_id
+          const googleAnalyticsData = await fetchGoogleAnalyticsData(1) // Replace 1 with actual user_id
+          googleConnected = true
+          // Process real Google data here when connection exists
+          console.log('Google data loaded:', { googleAdsData, googleAnalyticsData })
+        } catch (googleError: any) {
+          console.log('Google connection not available:', googleError?.message || 'Unknown error')
+          googleConnected = false
+        }
 
-        // Fetch Google Analytics data
-        const googleAnalyticsData = await fetchGoogleAnalyticsData(1) // Replace 1 with actual user_id
-        // Process googleAnalyticsData as needed
+        // Update connection status
+        setConnectionStatus({
+          facebook: facebookConnected,
+          google: googleConnected
+        })
 
-        // Example: Update multiAccount, manualOverride, postingSchedule based on fetched data or user settings
+        // Use mock data for demonstration (replace with real data when connections are available)
+        setPosts(mockData.posts)
+        setComments(mockData.comments)
+        setDms(mockData.dms)
+        setEngagement(mockData.engagement)
+        setAlerts(mockData.alerts)
         setMultiAccount(true)
         setManualOverride(false)
         setPostingSchedule("🤖 AI Suggested")
+
       } catch (err: any) {
-        setError(err.message || "Failed to load social media data")
+        console.error('Error loading data:', err)
+        // Even if there's an error, show mock data instead of failing
+        setPosts(mockData.posts)
+        setComments(mockData.comments)
+        setDms(mockData.dms)
+        setEngagement(mockData.engagement)
+        setAlerts([
+          { id: 1, type: "error", message: "⚠️ Unable to load real-time data. Showing demo data." },
+          ...mockData.alerts
+        ])
+        setError(null) // Don't show error to user, just log it
       } finally {
         setLoading(false)
       }
@@ -87,7 +135,19 @@ export function SocialMediaManager() {
 
   return (
     <div className="p-6 space-y-8">
-      <h2 className="text-3xl font-bold mb-6">Social Media Manager</h2>
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-3xl font-bold">Social Media Manager</h2>
+        <div className="flex gap-4">
+          <div className="flex items-center gap-2">
+            <span className={`w-3 h-3 rounded-full ${connectionStatus.facebook ? 'bg-green-500' : 'bg-red-500'}`}></span>
+            <span className="text-sm">Facebook {connectionStatus.facebook ? 'Connected' : 'Disconnected'}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className={`w-3 h-3 rounded-full ${connectionStatus.google ? 'bg-green-500' : 'bg-red-500'}`}></span>
+            <span className="text-sm">Google {connectionStatus.google ? 'Connected' : 'Disconnected'}</span>
+          </div>
+        </div>
+      </div>
 
       <section>
         <h3 className="text-2xl font-semibold mb-3 flex items-center gap-2">📝 Scheduled Posts</h3>
