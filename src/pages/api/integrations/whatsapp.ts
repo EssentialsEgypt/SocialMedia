@@ -24,8 +24,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const result = await sendWhatsAppMessage(accountSid, authToken, fromNumber, toNumber, body);
     return res.status(200).json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('WhatsApp API error:', error);
-    return res.status(500).json({ error: error.message || 'Internal Server Error' });
+    return res.status(500).json({ error: error instanceof Error ? error.message : 'Internal Server Error' });
   }
 }

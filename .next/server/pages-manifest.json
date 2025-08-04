@@ -1,1 +1,8 @@
-{}
+{
+  "/api/auto-messages": "pages/api/auto-messages.js",
+  "/api/crm/activities": "pages/api/crm/activities.js",
+  "/api/crm/deals": "pages/api/crm/deals.js",
+  "/api/crm/leads": "pages/api/crm/leads.js",
+  "/api/vip-customers/alerts": "pages/api/vip-customers/alerts.js",
+  "/api/vip-customers/list": "pages/api/vip-customers/list.js"
+}

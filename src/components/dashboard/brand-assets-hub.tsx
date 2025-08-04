@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState, ChangeEvent, FormEvent } from "react"
+import Image from "next/image"
 import {
   Card,
   CardContent,
@@ -16,7 +17,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
+
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"

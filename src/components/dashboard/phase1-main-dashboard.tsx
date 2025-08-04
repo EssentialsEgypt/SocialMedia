@@ -1,11 +1,10 @@
 "use client"
 
-"use client"
-
 import { useState, useEffect } from "react"
 import { Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider } from "@/components/ui/sidebar"
-import { BarChart3, Instagram, Facebook, Youtube, Mail, MessageCircle, ShoppingCart, TrendingUp } from "lucide-react"
+import { BarChart3, Instagram, Facebook, Youtube, Mail, MessageCircle, ShoppingCart, TrendingUp, Target } from "lucide-react"
 import supabase from "@/utils/supabaseClient"
+import RageIntel from "./rageintel"
 
 function AlertCard({ alerts }: { alerts: Array<{ id: string; message: string }> }) {
   return (
@@ -31,6 +30,7 @@ const sidebarItems = [
   { id: "email", label: "Email Campaigns", icon: Mail },
   { id: "whatsapp", label: "WhatsApp / UGC", icon: MessageCircle },
   { id: "sales", label: "Sales & Conversion", icon: ShoppingCart },
+  { id: "rageintel", label: "RageIntel™", icon: Target },
 ]
 
 export function Phase1MainDashboard() {
@@ -80,6 +80,8 @@ export function Phase1MainDashboard() {
         return <Placeholder title="WhatsApp & DMs Monitor" description="Response time, missed messages, conversion ratio, top agents, chat timeline." />
       case "sales":
         return <Placeholder title="Sales Attribution & Conversion Tracking" description="Funnel chart, attribution model, UTM performance, product sales, conversion ratios." />
+      case "rageintel":
+        return <RageIntel />
       default:
         return (
           <>

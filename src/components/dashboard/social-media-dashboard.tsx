@@ -2,24 +2,18 @@
 
 import { useState } from "react"
 import { Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { 
-  BarChart3, 
-  Users, 
-  Calendar, 
-  DollarSign, 
-  Target, 
-  Eye, 
-  Globe, 
-  Lightbulb, 
+
+import {
+  BarChart3,
+  Users,
+  Calendar,
+  DollarSign,
+  Target,
+  Globe,
+  Lightbulb,
   MessageSquare,
-  Image,
   Home,
-  TrendingUp,
-  Settings
+  TrendingUp
 } from "lucide-react"
 
 import { DashboardOverview } from "./dashboard-overview"
@@ -99,7 +93,7 @@ export function SocialMediaDashboard() {
             </SidebarMenu>
           </SidebarContent>
         </Sidebar>
-        
+
         <div className="flex-1 flex flex-col overflow-hidden">
           <header className="border-b p-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -108,9 +102,9 @@ export function SocialMediaDashboard() {
                 {sidebarItems.find(item => item.id === activeTab)?.label || "Dashboard"}
               </h1>
             </div>
-            <Badge variant="secondary">Mock Data Mode</Badge>
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Mock Data Mode</span>
           </header>
-          
+
           <main className="flex-1 overflow-auto p-6">
             {renderContent()}
           </main>

@@ -50,7 +50,7 @@ const MeetingList: React.FC<MeetingListProps> = ({
 
           return (
             <li key={meeting.id} className="meeting-item">
-              <h3 onClick={() => onSelectMeeting(meeting)} style={{cursor: 'pointer'}}>
+              <h3 onClick={() => onSelectMeeting(meeting)}>
                 {meeting.title}
               </h3>
               <p>

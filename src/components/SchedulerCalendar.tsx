@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -55,7 +55,7 @@ export default function SchedulerCalendar({
     setShowModal(true);
   };
 
-  const onSelectSlot = (slotInfo: any) => {
+  const onSelectSlot = (slotInfo: { start: Date; end: Date }) => {
     setNewEvent({
       title: "",
       start: slotInfo.start,
@@ -115,8 +115,6 @@ export default function SchedulerCalendar({
         onSelectEvent={onSelectEvent}
         onSelectSlot={onSelectSlot}
         eventPropGetter={eventStyleGetter}
-        onEventDrop={moveEvent}
-        draggableAccessor={() => true}
       />
 
       {showModal && (

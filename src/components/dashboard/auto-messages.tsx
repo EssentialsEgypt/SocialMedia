@@ -9,7 +9,7 @@ import { Switch } from "@/components/ui/switch"
 import { toast } from "sonner"
 import ErrorBoundary from "@/components/ui/error-boundary"
 
-const enableNewAutoMessageUI = true
+// const enableNewAutoMessageUI = true
 
 interface AutoMessage {
   id: number
@@ -37,8 +37,8 @@ export function AutoMessages() {
         if (!res.ok) throw new Error('Failed to fetch auto messages')
         const data = await res.json()
         setAutoMessages(data.messages)
-      } catch (err: any) {
-        setError(err.message || 'Error loading auto messages')
+      } catch (err: unknown) {
+        setError(err instanceof Error ? err.message : 'Error loading auto messages')
       } finally {
         setLoading(false)
       }
@@ -70,8 +70,8 @@ export function AutoMessages() {
         )
       )
       toast.success(`Updated ${channel} alert for "${autoMessages.find(m => m.id === id)?.trigger}"`)
-    } catch (err: any) {
-      toast.error(err.message || 'Error updating channel')
+    } catch (err: unknown) {
+      toast.error((err as Error).message || 'Error updating channel')
     } finally {
       setUpdatingId(null)
     }
@@ -96,8 +96,8 @@ export function AutoMessages() {
       const data = await res.json()
       if (!res.ok || data.error) throw new Error(data.error || 'Failed to send test alert')
       toast.success(`Test alert sent via ${channel} for "${msg.trigger}"`)
-    } catch (err: any) {
-      toast.error(err.message || 'Error sending test alert')
+    } catch (err: unknown) {
+      toast.error((err as Error).message || 'Error sending test alert')
     }
   }
 

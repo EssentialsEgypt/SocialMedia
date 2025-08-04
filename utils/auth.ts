@@ -16,7 +16,7 @@ export function signToken(payload: object, expiresIn = '7d'): string {
   if (!secret) {
     throw new Error('JWT_SECRET is not configured');
   }
-  return jwt.sign(payload, secret, { expiresIn });
+  return jwt.sign(payload, secret, { expiresIn } as jwt.SignOptions);
 }
 
 /**
@@ -32,7 +32,7 @@ export function verifyToken(token: string): object {
   if (!secret) {
     throw new Error('JWT_SECRET is not configured');
   }
-  return jwt.verify(token, secret);
+  return jwt.verify(token, secret) as object;
 }
 
 /**

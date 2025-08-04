@@ -13,7 +13,7 @@ const initialAdIdeas = [
 ]
 
 export function EnhancedAdIdeaGenerator() {
-  const [adIdeas, setAdIdeas] = useState(initialAdIdeas)
+  const [adIdeas] = useState(initialAdIdeas)
   const [aiSuggestion, setAiSuggestion] = useState("Generating AI suggestions...")
 
   useEffect(() => {

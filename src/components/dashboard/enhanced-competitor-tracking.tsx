@@ -1,9 +1,9 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
+
 import { TrendingUp, TrendingDown } from "lucide-react"
 
 // Enhanced mock competitor data with viral posts and clickable previews
@@ -65,7 +65,7 @@ const initialCompetitors = [
 ]
 
 export function EnhancedCompetitorTracking() {
-  const [competitors, setCompetitors] = useState(initialCompetitors)
+  const [competitors] = useState(initialCompetitors)
 
   // Placeholder for future data fetching or AI insights
 
@@ -91,10 +91,9 @@ export function EnhancedCompetitorTracking() {
                 <TableCell>{competitor.name}</TableCell>
                 <TableCell>{competitor.marketShare}</TableCell>
                 <TableCell>
-                  <span className={`flex items-center ${
-                    competitor.trend === "up" ? "text-green-600" :
-                    competitor.trend === "down" ? "text-red-600" : "text-gray-600"
-                  }`}>
+                  <span className={`flex items-center ${competitor.trend === "up" ? "text-green-600" :
+                      competitor.trend === "down" ? "text-red-600" : "text-gray-600"
+                    }`}>
                     {competitor.trend === "up" && <TrendingUp className="h-4 w-4 mr-1" />}
                     {competitor.trend === "down" && <TrendingDown className="h-4 w-4 mr-1" />}
                     {competitor.change}%

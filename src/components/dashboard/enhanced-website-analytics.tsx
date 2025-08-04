@@ -24,7 +24,7 @@ const referralSources = [
 ]
 
 export function EnhancedWebsiteAnalytics() {
-  const [websiteData, setWebsiteData] = useState(initialWebsiteData)
+  const [websiteData] = useState(initialWebsiteData)
 
   return (
     <div className="space-y-6">

@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Lightbulb } from "lucide-react"
+
 
 // Mock ad idea data
 const adIdeas = [

@@ -2,7 +2,7 @@ import fetchWithRetry from '../../utils/fetchWithRetry.js';
 import supabase from '../../utils/supabaseClient.js';
 
 const CLIENT_ID = process.env.LINKEDIN_CLIENT_ID;
-const CLIENT_SECRET = process.env.LINKEDIN_CLIENT_SECRET;
+// const CLIENT_SECRET = process.env.LINKEDIN_CLIENT_SECRET;
 
 const AUTHORIZE_URL = 'https://www.linkedin.com/oauth/v2/authorization';
 const TOKEN_URL = 'https://www.linkedin.com/oauth/v2/accessToken';
@@ -46,7 +46,7 @@ export async function getToken(code, redirectUri) {
   return data;
 }
 
-export async function refreshToken(refresh_token) {
+export async function refreshToken(_refresh_token) {
   // LinkedIn access tokens currently cannot be refreshed; they are long lived.
   throw new Error('LinkedIn refresh not supported');
 }

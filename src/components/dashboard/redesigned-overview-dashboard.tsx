@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Line } from "recharts"
-import { Users, DollarSign, TrendingUp, TrendingDown, ShoppingCart, Percent } from "lucide-react"
+import { DollarSign, TrendingUp, ShoppingCart, Percent } from "lucide-react"
 
 const dateRanges = [
   { label: "Today", value: "today" },
@@ -208,7 +208,7 @@ export function RedesignedOverviewDashboard() {
       <Card className="p-4">
         <h3 className="text-lg font-semibold mb-2">EGP 1,000,000 Monthly Revenue Target</h3>
         <div className="w-full bg-gray-300 rounded-full h-6">
-          <div className="bg-green-500 h-6 rounded-full" style={{ width: "68%" }}></div>
+          <div className="bg-green-500 h-6 rounded-full w-[68%]"></div>
         </div>
         <p className="mt-2 text-sm text-gray-600">68% Achieved</p>
       </Card>

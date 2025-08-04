@@ -3,7 +3,7 @@ import supabase from '../../utils/supabaseClient.js';
 
 const CLIENT_ID = process.env.INSTAGRAM_CLIENT_ID;
 const CLIENT_SECRET = process.env.INSTAGRAM_CLIENT_SECRET;
-const API_VERSION = process.env.FACEBOOK_API_VERSION || 'v18.0';
+// const API_VERSION = process.env.FACEBOOK_API_VERSION || 'v18.0';
 
 export function getAuthorizationUrl(state, redirectUri) {
   const params = new URLSearchParams({
@@ -38,7 +38,7 @@ export async function getToken(code, redirectUri) {
   return data;
 }
 
-export async function refreshToken(refresh_token) {
+export async function refreshToken(_refresh_token) {
   // Instagram long‑lived tokens can be extended. Implement as needed.
   throw new Error('Instagram token refresh not implemented');
 }

@@ -2,39 +2,43 @@
 
 import { useState } from "react"
 import { Sidebar, SidebarContent, SidebarHeader, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { BarChart3, Users, Calendar, DollarSign, Target, Eye, Globe, Lightbulb, MessageSquare, Image, Home, TrendingUp, Settings } from "lucide-react"
-
-import { EnhancedDashboardOverview } from "./enhanced-dashboard-overview"
+import { BarChart3, Home, TrendingUp, Calendar, Image, DollarSign, Target, Users, Clock, Globe, Lightbulb, MessageSquare, Settings, Brain, Building } from "lucide-react"
+import { SocialMediaManager } from "./social-media-manager"
 import { RedesignedOverviewDashboard } from "./redesigned-overview-dashboard"
-import { EnhancedCompetitorTracking } from "./enhanced-competitor-tracking"
+
 import { EnhancedContentHub } from "./enhanced-content-hub"
+import { BrandAssetsHub } from "./brand-assets-hub"
 import { EnhancedCashLog } from "./enhanced-cash-log"
-import { EnhancedAdPerformance } from "./enhanced-ad-performance"
+
 import { EnhancedAudienceTracker } from "./enhanced-audience-tracker"
-import { EnhancedWebsiteAnalytics } from "./enhanced-website-analytics"
+import { AIPoweredCampaignInsights } from "./ai-powered-campaign-insights"
 import { EnhancedAdIdeaGenerator } from "./enhanced-ad-idea-generator"
 import { EnhancedAutoMessages } from "./enhanced-auto-messages"
-import { EnhancedAIChat } from "./enhanced-ai-chat"
-import { AIPoweredCampaignInsights } from "./ai-powered-campaign-insights"
 import { BrandingPlaceholder } from "./branding-placeholder"
-import { SocialMediaManager } from "./social-media-manager"
-import { BrandAssetsHub } from "./brand-assets-hub"
+import { AIAudienceTimingInsights } from "./ai-audience-timing-insights"
+import RageIntel from "./rageintel"
+import AdPilotAI from "./adpilot-ai"
+import { AIChat } from "./ai-chat"
+import { WebsiteAnalytics } from "./website-analytics"
+import { CRMSalesPipeline } from "./crm-sales-pipeline"
 
 const sidebarItems = [
   { id: "dashboard", label: "Social Media Manager", icon: Home },
   { id: "redesigneddashboard", label: "Redesigned Dashboard", icon: BarChart3 },
-  { id: "competitor", label: "Competitor Tracking", icon: TrendingUp },
   { id: "content", label: "Content Hub", icon: Calendar },
   { id: "brandassets", label: "Brand Assets Hub", icon: Image },
   { id: "cash", label: "Cash Log", icon: DollarSign },
-  { id: "ads", label: "Ad Performance", icon: Target },
   { id: "audience", label: "Audience Tracker", icon: Users },
-  { id: "website", label: "Website Analytics", icon: Globe },
+  { id: "audiencetiming", label: "AI Audience Timing", icon: Clock },
   { id: "campaigninsights", label: "AI Campaign Insights", icon: Lightbulb },
   { id: "ideas", label: "Ad Ideas", icon: Lightbulb },
   { id: "messages", label: "Auto Messages", icon: MessageSquare },
-  { id: "aichat", label: "AI Chat", icon: Lightbulb },
   { id: "branding", label: "Branding", icon: Settings },
+  { id: "rageintel", label: "Competitor Tracking", icon: Brain },
+  { id: "adpilot", label: "Ad Performance", icon: Target },
+  { id: "aichat", label: "AI Chat & Collab", icon: MessageSquare },
+  { id: "websiteanalytics", label: "Website Analytics", icon: BarChart3 },
+  { id: "crm", label: "CRM & Sales", icon: Building },
 ]
 
 export function EnhancedSocialMediaDashboard() {
@@ -46,30 +50,34 @@ export function EnhancedSocialMediaDashboard() {
         return <SocialMediaManager />
       case "redesigneddashboard":
         return <RedesignedOverviewDashboard />
-      case "competitor":
-        return <EnhancedCompetitorTracking />
       case "content":
         return <EnhancedContentHub />
       case "brandassets":
         return <BrandAssetsHub />
       case "cash":
         return <EnhancedCashLog />
-      case "ads":
-        return <EnhancedAdPerformance />
       case "audience":
         return <EnhancedAudienceTracker />
-      case "website":
-        return <EnhancedWebsiteAnalytics />
+      case "audiencetiming":
+        return <AIAudienceTimingInsights />
       case "campaigninsights":
         return <AIPoweredCampaignInsights />
       case "ideas":
         return <EnhancedAdIdeaGenerator />
       case "messages":
         return <EnhancedAutoMessages />
-      case "aichat":
-        return <EnhancedAIChat />
       case "branding":
         return <BrandingPlaceholder />
+      case "rageintel":
+        return <RageIntel />
+      case "adpilot":
+        return <AdPilotAI />
+      case "aichat":
+        return <AIChat />
+      case "websiteanalytics":
+        return <WebsiteAnalytics />
+      case "crm":
+        return <CRMSalesPipeline />
       default:
         return <SocialMediaManager />
     }
@@ -102,7 +110,7 @@ export function EnhancedSocialMediaDashboard() {
             </SidebarMenu>
           </SidebarContent>
         </Sidebar>
-        
+
         <div className="flex-1 flex flex-col overflow-hidden">
           <header className="border-b p-4 flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -113,7 +121,7 @@ export function EnhancedSocialMediaDashboard() {
             </div>
             <span className="text-sm text-muted-foreground">Enhanced Mode</span>
           </header>
-          
+
           <main className="flex-1 overflow-auto p-6">
             {renderContent()}
           </main>

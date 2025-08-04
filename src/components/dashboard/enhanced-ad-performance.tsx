@@ -14,7 +14,7 @@ const initialAdPerformanceData = [
 ]
 
 export function EnhancedAdPerformance() {
-  const [adData, setAdData] = useState(initialAdPerformanceData)
+  const [adData] = useState(initialAdPerformanceData)
 
   // Placeholder for alert logic (e.g., CPA spikes, budget caps)
   const alerts = adData.filter(ad => ad.cpa > 5.5)

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import MeetingList from '../components/meetings/meeting-list';
-import MeetingForm, { MeetingData } from '../components/meetings/meeting-form';
+import MeetingList from '../../components/meetings/meeting-list';
+import MeetingForm, { MeetingData } from '../../components/meetings/meeting-form';
 
 interface Participant {
   id: string;

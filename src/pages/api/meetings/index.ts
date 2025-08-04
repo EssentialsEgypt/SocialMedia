@@ -1,5 +1,3 @@
- import { NextApiRequest, NextApiResponse } from 'next';
-
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 interface Meeting {
@@ -12,10 +10,10 @@ interface Meeting {
   location?: string;
   reminderMinutesBefore?: number;
   agendaItems?: string[];
-  attachments?: any[];
+  attachments?: unknown[];
 }
 
-let meetings: Meeting[] = [];
+const meetings: Meeting[] = [];
 
 const generateId = () => Math.random().toString(36).substr(2, 9);
 

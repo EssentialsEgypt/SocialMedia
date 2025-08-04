@@ -1,7 +1,7 @@
 "use client"
 
-import { Phase1MainDashboard } from "@/components/dashboard/phase1-main-dashboard"
+import { EnhancedSocialMediaDashboard } from "@/components/dashboard/enhanced-social-media-dashboard"
 
 export default function DashboardPage() {
-  return <Phase1MainDashboard />
+  return <EnhancedSocialMediaDashboard />
 }

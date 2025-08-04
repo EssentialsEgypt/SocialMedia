@@ -28,7 +28,7 @@ export default function SchedulerPage() {
   const fetchScheduledPosts = useCallback(async () => {
     setLoading(true);
     const { data, error } = await supabase
-      .from<ScheduledPost>("scheduled_posts")
+      .from("scheduled_posts")
       .select("*")
       .order("scheduled_at", { ascending: true });
     if (!error && data) {
@@ -58,12 +58,12 @@ export default function SchedulerPage() {
         body: JSON.stringify(newEvent),
       });
       if (!response.ok) throw new Error("Failed to add event");
-      const data = await response.json();
+      const responseData = await response.json();
       // Add new event with returned id
       setEvents((prev) => [
         ...prev,
         {
-          id: data[0].id,
+          id: responseData[0].id,
           title: newEvent.title,
           start: new Date(newEvent.start),
           end: new Date(newEvent.end),
@@ -85,7 +85,7 @@ export default function SchedulerPage() {
         body: JSON.stringify(updatedEvent),
       });
       if (!response.ok) throw new Error("Failed to update event");
-      const data = await response.json();
+      const responseData = await response.json();
       setEvents((prev) =>
         prev.map((event) => (event.id === updatedEvent.id ? updatedEvent : event))
       );

@@ -13,7 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(401).json({ error: "Unauthorized" });
     }
 
-    const { id, title, start, end, platform, status } = req.body;
+    const { id, title, start, platform, status } = req.body;
 
     const { data, error } = await supabase
       .from("scheduled_posts")

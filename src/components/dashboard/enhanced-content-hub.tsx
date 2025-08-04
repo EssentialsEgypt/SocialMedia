@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
-import { Calendar } from "lucide-react"
+
 
 // Enhanced mock content hub data with scheduling, auto-replies, and engagement stats
 const initialContentItems = [
@@ -21,8 +21,8 @@ const autoReplies = [
 ]
 
 export function EnhancedContentHub() {
-  const [contentItems, setContentItems] = useState(initialContentItems)
-  const [replies, setReplies] = useState(autoReplies)
+  const [contentItems] = useState(initialContentItems)
+  const [replies] = useState(autoReplies)
 
   return (
     <div className="space-y-6">
