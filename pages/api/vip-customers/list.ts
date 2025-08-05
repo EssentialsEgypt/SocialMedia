@@ -29,6 +29,7 @@ interface VIPCustomer {
     type: string
     item?: string
     content?: string
+    campaign?: string
     date: string
   }>
 }
@@ -163,33 +164,33 @@ const mockVIPCustomers: VIPCustomer[] = [
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'GET') {
     const { tier, minSpend, maxDaysSinceOrder, status } = req.query
-    
+
     let filteredCustomers = mockVIPCustomers
-    
+
     if (tier) {
-      filteredCustomers = filteredCustomers.filter(customer => 
+      filteredCustomers = filteredCustomers.filter(customer =>
         customer.tier.toLowerCase().includes(tier.toString().toLowerCase())
       )
     }
-    
+
     if (minSpend) {
-      filteredCustomers = filteredCustomers.filter(customer => 
+      filteredCustomers = filteredCustomers.filter(customer =>
         customer.totalSpent >= parseInt(minSpend.toString())
       )
     }
-    
+
     if (maxDaysSinceOrder) {
-      filteredCustomers = filteredCustomers.filter(customer => 
+      filteredCustomers = filteredCustomers.filter(customer =>
         customer.daysSinceLastOrder <= parseInt(maxDaysSinceOrder.toString())
       )
     }
-    
+
     if (status) {
-      filteredCustomers = filteredCustomers.filter(customer => 
+      filteredCustomers = filteredCustomers.filter(customer =>
         customer.lifecycle.status.toLowerCase().includes(status.toString().toLowerCase())
       )
     }
-    
+
     res.status(200).json({
       success: true,
       data: filteredCustomers,

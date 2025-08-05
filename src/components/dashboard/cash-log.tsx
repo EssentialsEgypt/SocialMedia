@@ -42,10 +42,10 @@ export function CashLog() {
       try {
         setLoading(true)
         setError(null)
-        const res = await fetch("/api/cash-log")
+        const res = await fetch("/api/cash-log/entries")
         if (!res.ok) throw new Error("Failed to fetch cash logs")
         const data = await res.json()
-        setCashLogs(data.entries)
+        setCashLogs(Array.isArray(data.entries) ? data.entries : [])
       } catch (err: any) {
         setError(err.message || "Error loading cash logs")
       } finally {
@@ -72,7 +72,7 @@ export function CashLog() {
     if (!validateForm()) return
     try {
       setSubmitting(true)
-      const res = await fetch("/api/cash-log", {
+      const res = await fetch("/api/cash-log/entries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -159,7 +159,7 @@ export function CashLog() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {cashLogs.map((log) => (
+              {Array.isArray(cashLogs) && cashLogs.map((log) => (
                 <TableRow key={log.id}>
                   <TableCell>{log.date}</TableCell>
                   <TableCell>{log.description}</TableCell>
@@ -255,7 +255,7 @@ export function CashLog() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {cashLogs.map((log) => (
+              {Array.isArray(cashLogs) && cashLogs.map((log) => (
                 <TableRow key={log.id}>
                   <TableCell>{log.date}</TableCell>
                   <TableCell>{log.description}</TableCell>

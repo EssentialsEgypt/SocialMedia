@@ -869,20 +869,20 @@ function EnhancedAudienceTracker() {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 522,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
                                         children: "AI Alerts"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 526,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 521,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex items-center gap-2",
@@ -893,20 +893,20 @@ function EnhancedAudienceTracker() {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 529,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
                                         children: "Real-time tracking"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 533,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 528,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex items-center gap-2",
@@ -917,20 +917,20 @@ function EnhancedAudienceTracker() {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 536,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
                                         children: "VIP Alerts"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 540,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 535,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                 onClick: handleOptimizeTiming,
@@ -941,20 +941,20 @@ function EnhancedAudienceTracker() {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 543,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     "Optimize Timing"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 542,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                         lineNumber: 520,
-                        columnNumber: 18
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -1040,7 +1040,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 573,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "ai-timing",
@@ -1048,7 +1048,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 574,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "forecaster",
@@ -1056,7 +1056,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 575,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "platform-sync",
@@ -1064,7 +1064,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 576,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "drop-readiness",
@@ -1072,7 +1072,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 577,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "competitor-scan",
@@ -1080,7 +1080,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 578,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "ai-suggestions",
@@ -1088,7 +1088,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 579,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "vip-customers",
@@ -1096,7 +1096,7 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 580,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                 value: "demographics",
@@ -1104,13 +1104,13 @@ function EnhancedAudienceTracker() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 581,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                         lineNumber: 572,
-                        columnNumber: 18
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
                         value: "overview",
@@ -3247,27 +3247,27 @@ function EnhancedAudienceTracker() {
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                 lineNumber: 1093,
-                                                                columnNumber: 20
+                                                                columnNumber: 19
                                                             }, this),
                                                             "VIP Metrics"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                         lineNumber: 1092,
-                                                        columnNumber: 18
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                         children: "Real-time VIP customer insights"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                         lineNumber: 1096,
-                                                        columnNumber: 18
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                 lineNumber: 1091,
-                                                columnNumber: 16
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3285,7 +3285,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1102,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-sm text-muted-foreground",
@@ -3293,13 +3293,13 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1103,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1101,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-center",
@@ -3310,7 +3310,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1106,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-sm text-muted-foreground",
@@ -3318,19 +3318,19 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1107,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1105,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                             lineNumber: 1100,
-                                                            columnNumber: 20
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid grid-cols-2 gap-4",
@@ -3344,7 +3344,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1112,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-sm text-muted-foreground",
@@ -3352,13 +3352,13 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1113,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1111,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-center",
@@ -3369,7 +3369,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1116,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-sm text-muted-foreground",
@@ -3377,24 +3377,24 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1117,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1115,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                             lineNumber: 1110,
-                                                            columnNumber: 20
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                             lineNumber: 1120,
-                                                            columnNumber: 20
+                                                            columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "space-y-2",
@@ -3407,7 +3407,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1123,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "font-medium",
@@ -3418,13 +3418,13 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1124,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1122,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "flex justify-between text-sm",
@@ -3434,7 +3434,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1127,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "font-medium",
@@ -3445,13 +3445,13 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1128,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1126,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "flex justify-between text-sm",
@@ -3461,7 +3461,7 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1131,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: "font-medium",
@@ -3472,36 +3472,36 @@ function EnhancedAudienceTracker() {
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                             lineNumber: 1132,
-                                                                            columnNumber: 24
+                                                                            columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                     lineNumber: 1130,
-                                                                    columnNumber: 22
+                                                                    columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                             lineNumber: 1121,
-                                                            columnNumber: 20
+                                                            columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                     lineNumber: 1099,
-                                                    columnNumber: 18
+                                                    columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                 lineNumber: 1098,
-                                                columnNumber: 16
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 1090,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                         children: [
@@ -3515,27 +3515,27 @@ function EnhancedAudienceTracker() {
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                                 lineNumber: 1143,
-                                                                columnNumber: 20
+                                                                columnNumber: 19
                                                             }, this),
                                                             "VIP Alerts"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                         lineNumber: 1142,
-                                                        columnNumber: 18
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                         children: "AI-powered VIP notifications"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                         lineNumber: 1146,
-                                                        columnNumber: 18
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                 lineNumber: 1141,
-                                                columnNumber: 16
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3549,8 +3549,8 @@ function EnhancedAudienceTracker() {
                                                                         className: "h-4 w-4 text-red-500 mt-0.5 flex-shrink-0"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                        lineNumber: 1156,
-                                                                        columnNumber: 26
+                                                                        lineNumber: 1155,
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex-1",
@@ -3560,57 +3560,57 @@ function EnhancedAudienceTracker() {
                                                                                 children: alert.customer
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                lineNumber: 1158,
-                                                                                columnNumber: 28
+                                                                                lineNumber: 1157,
+                                                                                columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: "text-xs text-muted-foreground",
                                                                                 children: alert.message
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                lineNumber: 1159,
-                                                                                columnNumber: 28
+                                                                                lineNumber: 1158,
+                                                                                columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: "text-xs text-blue-600 mt-1",
                                                                                 children: alert.suggestedAction
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                lineNumber: 1160,
-                                                                                columnNumber: 28
+                                                                                lineNumber: 1159,
+                                                                                columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                        lineNumber: 1157,
-                                                                        columnNumber: 26
+                                                                        lineNumber: 1156,
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1155,
-                                                                columnNumber: 24
+                                                                lineNumber: 1154,
+                                                                columnNumber: 23
                                                             }, this)
                                                         }, alert.id, false, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                             lineNumber: 1151,
-                                                            columnNumber: 22
+                                                            columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                     lineNumber: 1149,
-                                                    columnNumber: 18
+                                                    columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                                 lineNumber: 1148,
-                                                columnNumber: 16
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                         lineNumber: 1140,
-                                        columnNumber: 14
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                         children: [
@@ -3623,28 +3623,28 @@ function EnhancedAudienceTracker() {
                                                                 className: "h-5 w-5 text-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1173,
-                                                                columnNumber: 20
+                                                                lineNumber: 1172,
+                                                                columnNumber: 19
                                                             }, this),
                                                             "VIP Campaigns"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1172,
-                                                        columnNumber: 18
+                                                        lineNumber: 1171,
+                                                        columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                         children: "Automated VIP outreach"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1176,
-                                                        columnNumber: 18
+                                                        lineNumber: 1175,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1171,
-                                                columnNumber: 16
+                                                lineNumber: 1170,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3660,30 +3660,30 @@ function EnhancedAudienceTracker() {
                                                                             children: campaign.target
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1183,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1182,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
                                                                             variant: campaign.status === "scheduled" ? "default" : "secondary",
                                                                             children: campaign.status
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1184,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1183,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1182,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1181,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-xs text-muted-foreground mb-2",
                                                                     children: campaign.strategy
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1188,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1187,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-xs",
@@ -3693,50 +3693,50 @@ function EnhancedAudienceTracker() {
                                                                             children: "Products:"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1190,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1189,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-muted-foreground",
                                                                             children: campaign.products.join(", ")
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1191,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1190,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1189,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1188,
+                                                                    columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, campaign.id, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                            lineNumber: 1181,
-                                                            columnNumber: 22
+                                                            lineNumber: 1180,
+                                                            columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                    lineNumber: 1179,
-                                                    columnNumber: 18
+                                                    lineNumber: 1178,
+                                                    columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1178,
-                                                columnNumber: 16
+                                                lineNumber: 1177,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                        lineNumber: 1170,
-                                        columnNumber: 14
+                                        lineNumber: 1169,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                                 lineNumber: 1088,
-                                columnNumber: 12
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                 children: [
@@ -3749,28 +3749,28 @@ function EnhancedAudienceTracker() {
                                                         className: "h-5 w-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1204,
-                                                        columnNumber: 18
+                                                        lineNumber: 1203,
+                                                        columnNumber: 17
                                                     }, this),
                                                     "VIP Customer Database"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1203,
-                                                columnNumber: 16
+                                                lineNumber: 1202,
+                                                columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                 children: "Detailed VIP customer profiles with AI insights"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1207,
-                                                columnNumber: 16
+                                                lineNumber: 1206,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                        lineNumber: 1202,
-                                        columnNumber: 14
+                                        lineNumber: 1201,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3789,8 +3789,8 @@ function EnhancedAudienceTracker() {
                                                                             children: vip.name.split(" ").map((n)=>n[0]).join("")
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1215,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1214,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             children: [
@@ -3799,28 +3799,28 @@ function EnhancedAudienceTracker() {
                                                                                     children: vip.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                    lineNumber: 1219,
-                                                                                    columnNumber: 28
+                                                                                    lineNumber: 1218,
+                                                                                    columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                     className: "text-sm text-muted-foreground",
                                                                                     children: vip.tier
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                    lineNumber: 1220,
-                                                                                    columnNumber: 28
+                                                                                    lineNumber: 1219,
+                                                                                    columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1218,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1217,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1214,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1213,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-right",
@@ -3833,8 +3833,8 @@ function EnhancedAudienceTracker() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1224,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1223,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-sm text-muted-foreground",
@@ -3844,20 +3844,20 @@ function EnhancedAudienceTracker() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1225,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1224,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1223,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1222,
+                                                                    columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                            lineNumber: 1213,
-                                                            columnNumber: 22
+                                                            lineNumber: 1212,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid grid-cols-2 md:grid-cols-4 gap-4 mb-3",
@@ -3870,8 +3870,8 @@ function EnhancedAudienceTracker() {
                                                                             children: "Purchase Probability"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1231,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1230,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-lg font-bold text-green-600",
@@ -3881,14 +3881,14 @@ function EnhancedAudienceTracker() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1232,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1231,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1230,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1229,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-center",
@@ -3898,8 +3898,8 @@ function EnhancedAudienceTracker() {
                                                                             children: "Engagement Score"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1235,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1234,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-lg font-bold text-blue-600",
@@ -3909,14 +3909,14 @@ function EnhancedAudienceTracker() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1236,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1235,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1234,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1233,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-center",
@@ -3926,8 +3926,8 @@ function EnhancedAudienceTracker() {
                                                                             children: "Influence Index"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1239,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1238,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "text-lg font-bold text-purple-600",
@@ -3937,14 +3937,14 @@ function EnhancedAudienceTracker() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1240,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1239,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1238,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1237,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "text-center",
@@ -3954,28 +3954,28 @@ function EnhancedAudienceTracker() {
                                                                             children: "Days Since Order"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1243,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1242,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: `text-lg font-bold ${vip.daysSinceLastOrder > 30 ? "text-red-600" : "text-green-600"}`,
                                                                             children: vip.daysSinceLastOrder
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1244,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1243,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1242,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1241,
+                                                                    columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                            lineNumber: 1229,
-                                                            columnNumber: 22
+                                                            lineNumber: 1228,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid grid-cols-1 md:grid-cols-2 gap-4",
@@ -3987,8 +3987,8 @@ function EnhancedAudienceTracker() {
                                                                             children: "Recent Activity"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1252,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1251,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "space-y-1",
@@ -3997,23 +3997,23 @@ function EnhancedAudienceTracker() {
                                                                                     children: [
                                                                                         activity.type.replace("_", " "),
                                                                                         ": ",
-                                                                                        activity.item || activity.content
+                                                                                        activity.item || activity.content || 'N/A'
                                                                                     ]
                                                                                 }, index, true, {
                                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                    lineNumber: 1255,
-                                                                                    columnNumber: 30
+                                                                                    lineNumber: 1254,
+                                                                                    columnNumber: 29
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1253,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1252,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1251,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1250,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     children: [
@@ -4022,8 +4022,8 @@ function EnhancedAudienceTracker() {
                                                                             children: "Emotional Triggers"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1262,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1261,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "flex flex-wrap gap-1",
@@ -4033,25 +4033,25 @@ function EnhancedAudienceTracker() {
                                                                                     children: trigger
                                                                                 }, index, false, {
                                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                                    lineNumber: 1265,
-                                                                                    columnNumber: 30
+                                                                                    lineNumber: 1264,
+                                                                                    columnNumber: 29
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1263,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1262,
+                                                                            columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1261,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1260,
+                                                                    columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                            lineNumber: 1250,
-                                                            columnNumber: 22
+                                                            lineNumber: 1249,
+                                                            columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "mt-3 flex gap-2",
@@ -4065,15 +4065,15 @@ function EnhancedAudienceTracker() {
                                                                             className: "h-3 w-3 mr-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1275,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1274,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         "Email"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1274,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1273,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                                     size: "sm",
@@ -4084,15 +4084,15 @@ function EnhancedAudienceTracker() {
                                                                             className: "h-3 w-3 mr-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1279,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1278,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         "WhatsApp"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1278,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1277,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                                     size: "sm",
@@ -4103,15 +4103,15 @@ function EnhancedAudienceTracker() {
                                                                             className: "h-3 w-3 mr-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1283,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1282,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         "DM"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1282,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1281,
+                                                                    columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                                     size: "sm",
@@ -4122,49 +4122,49 @@ function EnhancedAudienceTracker() {
                                                                             className: "h-3 w-3 mr-1"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                            lineNumber: 1287,
-                                                                            columnNumber: 26
+                                                                            lineNumber: 1286,
+                                                                            columnNumber: 25
                                                                         }, this),
                                                                         "VIP Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                    lineNumber: 1286,
-                                                                    columnNumber: 24
+                                                                    lineNumber: 1285,
+                                                                    columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                            lineNumber: 1273,
-                                                            columnNumber: 22
+                                                            lineNumber: 1272,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, vip.id, true, {
                                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                    lineNumber: 1212,
-                                                    columnNumber: 20
+                                                    lineNumber: 1211,
+                                                    columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                            lineNumber: 1210,
-                                            columnNumber: 16
+                                            lineNumber: 1209,
+                                            columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                        lineNumber: 1209,
-                                        columnNumber: 14
+                                        lineNumber: 1208,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                lineNumber: 1201,
-                                columnNumber: 12
+                                lineNumber: 1200,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
                         lineNumber: 1087,
-                        columnNumber: 10
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
                         value: "demographics",
@@ -4177,20 +4177,20 @@ function EnhancedAudienceTracker() {
                                             children: "Demographics"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                            lineNumber: 1302,
+                                            lineNumber: 1301,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
                                             children: "Detailed audience demographics and contact information"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                            lineNumber: 1303,
+                                            lineNumber: 1302,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                    lineNumber: 1301,
+                                    lineNumber: 1300,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -4204,7 +4204,7 @@ function EnhancedAudienceTracker() {
                                                         children: "Age Groups"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1308,
+                                                        lineNumber: 1307,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4218,18 +4218,18 @@ function EnhancedAudienceTracker() {
                                                                 ]
                                                             }, group.label, true, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1311,
+                                                                lineNumber: 1310,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1309,
+                                                        lineNumber: 1308,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1307,
+                                                lineNumber: 1306,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4239,7 +4239,7 @@ function EnhancedAudienceTracker() {
                                                         children: "Locations"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1316,
+                                                        lineNumber: 1315,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4253,18 +4253,18 @@ function EnhancedAudienceTracker() {
                                                                 ]
                                                             }, loc.label, true, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1319,
+                                                                lineNumber: 1318,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1317,
+                                                        lineNumber: 1316,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1315,
+                                                lineNumber: 1314,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4274,14 +4274,14 @@ function EnhancedAudienceTracker() {
                                                         children: "Contact Info"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1324,
+                                                        lineNumber: 1323,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Phone Numbers:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1325,
+                                                        lineNumber: 1324,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4290,19 +4290,19 @@ function EnhancedAudienceTracker() {
                                                                 children: phone
                                                             }, idx, false, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1328,
+                                                                lineNumber: 1327,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1326,
+                                                        lineNumber: 1325,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Emails:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1331,
+                                                        lineNumber: 1330,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4311,41 +4311,41 @@ function EnhancedAudienceTracker() {
                                                                 children: email
                                                             }, idx, false, {
                                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                                lineNumber: 1334,
+                                                                lineNumber: 1333,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                        lineNumber: 1332,
+                                                        lineNumber: 1331,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                                lineNumber: 1323,
+                                                lineNumber: 1322,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                        lineNumber: 1306,
+                                        lineNumber: 1305,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                                    lineNumber: 1305,
+                                    lineNumber: 1304,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                            lineNumber: 1300,
+                            lineNumber: 1299,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard/enhanced-audience-tracker.tsx",
-                        lineNumber: 1299,
-                        columnNumber: 10
+                        lineNumber: 1298,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {

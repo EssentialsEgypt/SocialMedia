@@ -105,7 +105,7 @@ import {
     ShieldAlert,
     ShieldX,
     Key,
-    KeyOff,
+    // KeyOff, // Removed - not available in lucide-react
     Database,
     HardDrive,
     Cloud,
@@ -134,8 +134,8 @@ import {
     Meh,
     Laugh,
     Angry,
-    Surprise,
-    Wink,
+    // Surprise, // Removed - not available in lucide-react
+    // Wink, // Removed - not available in lucide-react
     Eye as EyeIcon,
     EyeOff,
     Camera,
@@ -150,11 +150,11 @@ import {
     FileArchive,
     FileCode,
     FileSpreadsheet,
-    FilePresentation,
-    FilePdf,
-    FileWord,
-    FileExcel,
-    FilePowerpoint,
+    // FilePresentation, // Removed - not available in lucide-react
+    // FilePdf, // Removed - not available in lucide-react
+    // FileWord, // Removed - not available in lucide-react
+    // FileExcel, // Removed - not available in lucide-react
+    // FilePowerpoint, // Removed - not available in lucide-react
     Folder,
     FolderOpen,
     FolderPlus,
@@ -163,8 +163,7 @@ import {
     FolderCheck,
     FolderSearch,
     FolderHeart,
-    FolderStar,
-    FolderGit2,
+    // FolderStar, // Removed - not available in lucide-react
     FolderGit,
     FolderKanban,
     FolderInput,
@@ -173,66 +172,66 @@ import {
     FolderTree,
     FolderUp,
     FolderDown,
-    FolderLeft,
-    FolderRight,
+    // FolderLeft, // Removed - not available in lucide-react
+    // FolderRight, // Removed - not available in lucide-react
     FolderRoot,
-    FolderSearch2,
+    // FolderSearch2, // Removed - not available in lucide-react
     FolderClock,
     FolderKey,
     FolderLock,
-    FolderUnlock,
+    // FolderUnlock, // Removed - not available in lucide-react
     FolderCog,
-    FolderSettings,
-    FolderPlus2,
-    FolderMinus2,
-    FolderX2,
-    FolderCheck2,
-    FolderSearch3,
-    FolderHeart2,
-    FolderStar2,
-    FolderGit3,
-    FolderKanban2,
-    FolderInput2,
-    FolderOutput2,
-    FolderSymlink2,
-    FolderTree2,
-    FolderUp2,
-    FolderDown2,
-    FolderLeft2,
-    FolderRight2,
-    FolderRoot2,
-    FolderSearch4,
-    FolderClock2,
-    FolderKey2,
-    FolderLock2,
-    FolderUnlock2,
-    FolderCog2,
-    FolderSettings2,
-    FolderPlus3,
-    FolderMinus3,
-    FolderX3,
-    FolderCheck3,
-    FolderSearch5,
-    FolderHeart3,
-    FolderStar3,
-    FolderGit4,
-    FolderKanban3,
-    FolderInput3,
-    FolderOutput3,
-    FolderSymlink3,
-    FolderTree3,
-    FolderUp3,
-    FolderDown3,
-    FolderLeft3,
-    FolderRight3,
-    FolderRoot3,
-    FolderSearch6,
-    FolderClock3,
-    FolderKey3,
-    FolderLock3,
-    FolderUnlock3,
-    FolderCog3,
-    FolderSettings3
+    // FolderSettings, // Removed - not available in lucide-react
+    // FolderPlus2, // Removed - not available in lucide-react
+    // FolderMinus2, // Removed - not available in lucide-react
+    // FolderX2, // Removed - not available in lucide-react
+    // FolderCheck2, // Removed - not available in lucide-react
+    // FolderSearch3, // Removed - not available in lucide-react
+    // FolderHeart2, // Removed - not available in lucide-react
+    // FolderStar2, // Removed - not available in lucide-react
+    // FolderGit3, // Removed - not available in lucide-react
+    // FolderKanban2, // Removed - not available in lucide-react
+    // FolderInput2, // Removed - not available in lucide-react
+    // FolderOutput2, // Removed - not available in lucide-react
+    // FolderSymlink2, // Removed - not available in lucide-react
+    // FolderTree2, // Removed - not available in lucide-react
+    // FolderUp2, // Removed - not available in lucide-react
+    // FolderDown2, // Removed - not available in lucide-react
+    // FolderLeft2, // Removed - not available in lucide-react
+    // FolderRight2, // Removed - not available in lucide-react
+    // FolderRoot2, // Removed - not available in lucide-react
+    // FolderSearch4, // Removed - not available in lucide-react
+    // FolderClock2, // Removed - not available in lucide-react
+    // FolderKey2, // Removed - not available in lucide-react
+    // FolderLock2, // Removed - not available in lucide-react
+    // FolderUnlock2, // Removed - not available in lucide-react
+    // FolderCog2, // Removed - not available in lucide-react
+    // FolderSettings2, // Removed - not available in lucide-react
+    // FolderPlus3, // Removed - not available in lucide-react
+    // FolderMinus3, // Removed - not available in lucide-react
+    // FolderX3, // Removed - not available in lucide-react
+    // FolderCheck3, // Removed - not available in lucide-react
+    // FolderSearch5, // Removed - not available in lucide-react
+    // FolderHeart3, // Removed - not available in lucide-react
+    // FolderStar3, // Removed - not available in lucide-react
+    // FolderGit4, // Removed - not available in lucide-react
+    // FolderKanban3, // Removed - not available in lucide-react
+    // FolderInput3, // Removed - not available in lucide-react
+    // FolderOutput3, // Removed - not available in lucide-react
+    // FolderSymlink3, // Removed - not available in lucide-react
+    // FolderTree3, // Removed - not available in lucide-react
+    // FolderUp3, // Removed - not available in lucide-react
+    // FolderDown3, // Removed - not available in lucide-react
+    // FolderLeft3, // Removed - not available in lucide-react
+    // FolderRight3, // Removed - not available in lucide-react
+    // FolderRoot3, // Removed - not available in lucide-react
+    // FolderSearch6, // Removed - not available in lucide-react
+    // FolderClock3, // Removed - not available in lucide-react
+    // FolderKey3, // Removed - not available in lucide-react
+    // FolderLock3, // Removed - not available in lucide-react
+    // FolderUnlock3, // Removed - not available in lucide-react
+    // FolderCog3, // Removed - not available in lucide-react
+    // FolderSettings3 // Removed - not available in lucide-react
 } from "lucide-react"
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart as RechartsPieChart, Pie, Cell, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts"
 
@@ -575,7 +574,7 @@ export function CRMSalesPipeline() {
             "Closed Won": "bg-green-100 text-green-800",
             "Closed Lost": "bg-red-100 text-red-800"
         }
-        return colors[stage] || "bg-gray-100 text-gray-800"
+        return colors[stage as keyof typeof colors] || "bg-gray-100 text-gray-800"
     }
 
     const getProbabilityColor = (probability: number) => {

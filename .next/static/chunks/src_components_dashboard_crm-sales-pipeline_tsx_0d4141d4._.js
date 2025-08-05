@@ -559,7 +559,7 @@ function CRMSalesPipeline() {
                                 children: "CRM & Sales Pipeline"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 593,
+                                lineNumber: 592,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -567,13 +567,13 @@ function CRMSalesPipeline() {
                                 children: "Manage leads, deals, and customer success"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 594,
+                                lineNumber: 593,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 592,
+                        lineNumber: 591,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -587,20 +587,20 @@ function CRMSalesPipeline() {
                                         onCheckedChange: setAiAlertsEnabled
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 598,
+                                        lineNumber: 597,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
                                         children: "AI Alerts"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 599,
+                                        lineNumber: 598,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 597,
+                                lineNumber: 596,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -610,26 +610,26 @@ function CRMSalesPipeline() {
                                         className: "h-4 w-4 mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 602,
+                                        lineNumber: 601,
                                         columnNumber: 25
                                     }, this),
                                     "New Lead"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 601,
+                                lineNumber: 600,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 596,
+                        lineNumber: 595,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                lineNumber: 591,
+                lineNumber: 590,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Alert"], {
@@ -638,7 +638,7 @@ function CRMSalesPipeline() {
                         className: "h-4 w-4"
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 610,
+                        lineNumber: 609,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDescription"], {
@@ -647,20 +647,20 @@ function CRMSalesPipeline() {
                                 children: "AI Insights:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 612,
+                                lineNumber: 611,
                                 columnNumber: 21
                             }, this),
                             " Focus on Ahmed Hassan deal (75% probability) and Mohamed Ali deal (90% probability) for highest conversion potential. Sara Mahmoud needs immediate follow-up to prevent drop-off."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 611,
+                        lineNumber: 610,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                lineNumber: 609,
+                lineNumber: 608,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -676,20 +676,20 @@ function CRMSalesPipeline() {
                                         children: "Pipeline Value"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 620,
+                                        lineNumber: 619,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
                                         className: "h-4 w-4 text-muted-foreground"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 621,
+                                        lineNumber: 620,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 619,
+                                lineNumber: 618,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -702,7 +702,7 @@ function CRMSalesPipeline() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 624,
+                                        lineNumber: 623,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -710,19 +710,19 @@ function CRMSalesPipeline() {
                                         children: "+12% from last month"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 625,
+                                        lineNumber: 624,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 623,
+                                lineNumber: 622,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 618,
+                        lineNumber: 617,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -735,20 +735,20 @@ function CRMSalesPipeline() {
                                         children: "Active Leads"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 630,
+                                        lineNumber: 629,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
                                         className: "h-4 w-4 text-muted-foreground"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 631,
+                                        lineNumber: 630,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 629,
+                                lineNumber: 628,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -758,7 +758,7 @@ function CRMSalesPipeline() {
                                         children: salesPipelineData.leads.length
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 634,
+                                        lineNumber: 633,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -766,19 +766,19 @@ function CRMSalesPipeline() {
                                         children: "+2 new this week"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 635,
+                                        lineNumber: 634,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 633,
+                                lineNumber: 632,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 628,
+                        lineNumber: 627,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -791,20 +791,20 @@ function CRMSalesPipeline() {
                                         children: "Conversion Rate"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 640,
+                                        lineNumber: 639,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
                                         className: "h-4 w-4 text-muted-foreground"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 641,
+                                        lineNumber: 640,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 639,
+                                lineNumber: 638,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -817,7 +817,7 @@ function CRMSalesPipeline() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 644,
+                                        lineNumber: 643,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -825,19 +825,19 @@ function CRMSalesPipeline() {
                                         children: "Target: 25%"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 645,
+                                        lineNumber: 644,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 643,
+                                lineNumber: 642,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 638,
+                        lineNumber: 637,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -850,20 +850,20 @@ function CRMSalesPipeline() {
                                         children: "Avg Deal Size"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 650,
+                                        lineNumber: 649,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$target$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Target$3e$__["Target"], {
                                         className: "h-4 w-4 text-muted-foreground"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 651,
+                                        lineNumber: 650,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 649,
+                                lineNumber: 648,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -876,7 +876,7 @@ function CRMSalesPipeline() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 654,
+                                        lineNumber: 653,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -884,25 +884,25 @@ function CRMSalesPipeline() {
                                         children: "+8% from last month"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 655,
+                                        lineNumber: 654,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 653,
+                                lineNumber: 652,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 648,
+                        lineNumber: 647,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                lineNumber: 617,
+                lineNumber: 616,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tabs"], {
@@ -918,7 +918,7 @@ function CRMSalesPipeline() {
                                 children: "Sales Pipeline"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 663,
+                                lineNumber: 662,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -926,7 +926,7 @@ function CRMSalesPipeline() {
                                 children: "Leads & Deals"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 664,
+                                lineNumber: 663,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -934,7 +934,7 @@ function CRMSalesPipeline() {
                                 children: "Activities"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 665,
+                                lineNumber: 664,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -942,13 +942,13 @@ function CRMSalesPipeline() {
                                 children: "Customer Success"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 666,
+                                lineNumber: 665,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 662,
+                        lineNumber: 661,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -966,20 +966,20 @@ function CRMSalesPipeline() {
                                                         children: "Pipeline Stages"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 675,
+                                                        lineNumber: 674,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                         children: "Deal progression and value distribution"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 676,
+                                                        lineNumber: 675,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 674,
+                                                lineNumber: 673,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -997,7 +997,7 @@ function CRMSalesPipeline() {
                                                                             children: stage.name
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 683,
+                                                                            lineNumber: 682,
                                                                             columnNumber: 49
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1008,13 +1008,13 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 686,
+                                                                            lineNumber: 685,
                                                                             columnNumber: 49
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 682,
+                                                                    lineNumber: 681,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1028,7 +1028,7 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 691,
+                                                                            lineNumber: 690,
                                                                             columnNumber: 49
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1039,35 +1039,35 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 692,
+                                                                            lineNumber: 691,
                                                                             columnNumber: 49
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 690,
+                                                                    lineNumber: 689,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, stage.name, true, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 681,
+                                                            lineNumber: 680,
                                                             columnNumber: 41
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 679,
+                                                    lineNumber: 678,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 678,
+                                                lineNumber: 677,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 673,
+                                        lineNumber: 672,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1078,20 +1078,20 @@ function CRMSalesPipeline() {
                                                         children: "Pipeline Value Distribution"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 705,
+                                                        lineNumber: 704,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                         children: "Visual representation of deal stages"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 706,
+                                                        lineNumber: 705,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 704,
+                                                lineNumber: 703,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1105,24 +1105,24 @@ function CRMSalesPipeline() {
                                                                 strokeDasharray: "3 3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 711,
+                                                                lineNumber: 710,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
                                                                 dataKey: "name"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 712,
+                                                                lineNumber: 711,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {}, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 713,
+                                                                lineNumber: 712,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {}, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 714,
+                                                                lineNumber: 713,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -1130,35 +1130,35 @@ function CRMSalesPipeline() {
                                                                 fill: "#3b82f6"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 715,
+                                                                lineNumber: 714,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 710,
+                                                        lineNumber: 709,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 709,
+                                                    lineNumber: 708,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 708,
+                                                lineNumber: 707,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 703,
+                                        lineNumber: 702,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 671,
+                                lineNumber: 670,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1171,19 +1171,19 @@ function CRMSalesPipeline() {
                                                     className: "h-5 w-5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 726,
+                                                    lineNumber: 725,
                                                     columnNumber: 33
                                                 }, this),
                                                 "AI Sales Recommendations"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 725,
+                                            lineNumber: 724,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 724,
+                                        lineNumber: 723,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1196,7 +1196,7 @@ function CRMSalesPipeline() {
                                                             className: "h-4 w-4 text-blue-600 mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 734,
+                                                            lineNumber: 733,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1204,35 +1204,35 @@ function CRMSalesPipeline() {
                                                             children: rec
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 735,
+                                                            lineNumber: 734,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 733,
+                                                    lineNumber: 732,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 731,
+                                            lineNumber: 730,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 730,
+                                        lineNumber: 729,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                lineNumber: 723,
+                                lineNumber: 722,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 670,
+                        lineNumber: 669,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1249,20 +1249,20 @@ function CRMSalesPipeline() {
                                                     children: "Active Leads"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 749,
+                                                    lineNumber: 748,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Manage and track lead progression"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 750,
+                                                    lineNumber: 749,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 748,
+                                            lineNumber: 747,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1285,12 +1285,12 @@ function CRMSalesPipeline() {
                                                                                         children: lead.name.split(' ').map((n)=>n[0]).join('')
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                        lineNumber: 760,
+                                                                                        lineNumber: 759,
                                                                                         columnNumber: 61
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 759,
+                                                                                    lineNumber: 758,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1300,7 +1300,7 @@ function CRMSalesPipeline() {
                                                                                             children: lead.name
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 763,
+                                                                                            lineNumber: 762,
                                                                                             columnNumber: 61
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1308,19 +1308,19 @@ function CRMSalesPipeline() {
                                                                                             children: lead.company
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 764,
+                                                                                            lineNumber: 763,
                                                                                             columnNumber: 61
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 762,
+                                                                                    lineNumber: 761,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 758,
+                                                                            lineNumber: 757,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1328,13 +1328,13 @@ function CRMSalesPipeline() {
                                                                             children: lead.status
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 767,
+                                                                            lineNumber: 766,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 757,
+                                                                    lineNumber: 756,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1347,7 +1347,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Value:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 771,
+                                                                                    lineNumber: 770,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 " $",
@@ -1355,7 +1355,7 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 770,
+                                                                            lineNumber: 769,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1365,7 +1365,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Probability:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 774,
+                                                                                    lineNumber: 773,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1377,19 +1377,19 @@ function CRMSalesPipeline() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 775,
+                                                                                    lineNumber: 774,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 773,
+                                                                            lineNumber: 772,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 769,
+                                                                    lineNumber: 768,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1404,14 +1404,14 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 780,
+                                                                                    lineNumber: 779,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Follow Up"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 779,
+                                                                            lineNumber: 778,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1422,14 +1422,14 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 784,
+                                                                                    lineNumber: 783,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Email"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 783,
+                                                                            lineNumber: 782,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1440,47 +1440,47 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 788,
+                                                                                    lineNumber: 787,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Message"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 787,
+                                                                            lineNumber: 786,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 778,
+                                                                    lineNumber: 777,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, lead.id, true, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 756,
+                                                            lineNumber: 755,
                                                             columnNumber: 45
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 754,
+                                                    lineNumber: 753,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 753,
+                                                lineNumber: 752,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 752,
+                                            lineNumber: 751,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 747,
+                                    lineNumber: 746,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1491,20 +1491,20 @@ function CRMSalesPipeline() {
                                                     children: "Active Deals"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 802,
+                                                    lineNumber: 801,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Track deal progression and value"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 803,
+                                                    lineNumber: 802,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 801,
+                                            lineNumber: 800,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1525,7 +1525,7 @@ function CRMSalesPipeline() {
                                                                                     children: deal.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 812,
+                                                                                    lineNumber: 811,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1533,13 +1533,13 @@ function CRMSalesPipeline() {
                                                                                     children: deal.lead
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 813,
+                                                                                    lineNumber: 812,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 811,
+                                                                            lineNumber: 810,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1547,13 +1547,13 @@ function CRMSalesPipeline() {
                                                                             children: deal.stage
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 815,
+                                                                            lineNumber: 814,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 810,
+                                                                    lineNumber: 809,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1566,7 +1566,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Value:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 819,
+                                                                                    lineNumber: 818,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 " $",
@@ -1574,7 +1574,7 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 818,
+                                                                            lineNumber: 817,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1584,7 +1584,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Probability:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 822,
+                                                                                    lineNumber: 821,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1596,19 +1596,19 @@ function CRMSalesPipeline() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 823,
+                                                                                    lineNumber: 822,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 821,
+                                                                            lineNumber: 820,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 817,
+                                                                    lineNumber: 816,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1619,7 +1619,7 @@ function CRMSalesPipeline() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 826,
+                                                                    lineNumber: 825,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1634,14 +1634,14 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 831,
+                                                                                    lineNumber: 830,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Close Deal"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 830,
+                                                                            lineNumber: 829,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1652,58 +1652,58 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 835,
+                                                                                    lineNumber: 834,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Edit"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 834,
+                                                                            lineNumber: 833,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 829,
+                                                                    lineNumber: 828,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, deal.id, true, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 809,
+                                                            lineNumber: 808,
                                                             columnNumber: 45
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 807,
+                                                    lineNumber: 806,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 806,
+                                                lineNumber: 805,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 805,
+                                            lineNumber: 804,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 800,
+                                    lineNumber: 799,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                            lineNumber: 745,
+                            lineNumber: 744,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 744,
+                        lineNumber: 743,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1717,20 +1717,20 @@ function CRMSalesPipeline() {
                                             children: "Recent Activities"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 852,
+                                            lineNumber: 851,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                             children: "Track all sales activities and interactions"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 853,
+                                            lineNumber: 852,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 851,
+                                    lineNumber: 850,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1746,27 +1746,27 @@ function CRMSalesPipeline() {
                                                                 className: "h-5 w-5 text-blue-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 860,
+                                                                lineNumber: 859,
                                                                 columnNumber: 74
                                                             }, this),
                                                             activity.type === 'meeting' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
                                                                 className: "h-5 w-5 text-green-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 861,
+                                                                lineNumber: 860,
                                                                 columnNumber: 77
                                                             }, this),
                                                             activity.type === 'email' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
                                                                 className: "h-5 w-5 text-orange-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 862,
+                                                                lineNumber: 861,
                                                                 columnNumber: 75
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 859,
+                                                        lineNumber: 858,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1780,7 +1780,7 @@ function CRMSalesPipeline() {
                                                                         children: activity.lead
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                        lineNumber: 866,
+                                                                        lineNumber: 865,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1788,13 +1788,13 @@ function CRMSalesPipeline() {
                                                                         children: activity.date
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                        lineNumber: 867,
+                                                                        lineNumber: 866,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 865,
+                                                                lineNumber: 864,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1807,7 +1807,7 @@ function CRMSalesPipeline() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 869,
+                                                                lineNumber: 868,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1815,7 +1815,7 @@ function CRMSalesPipeline() {
                                                                 children: activity.notes
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 872,
+                                                                lineNumber: 871,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1826,40 +1826,40 @@ function CRMSalesPipeline() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 873,
+                                                                lineNumber: 872,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 864,
+                                                        lineNumber: 863,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, activity.id, true, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 858,
+                                                lineNumber: 857,
                                                 columnNumber: 37
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                        lineNumber: 856,
+                                        lineNumber: 855,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 855,
+                                    lineNumber: 854,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                            lineNumber: 850,
+                            lineNumber: 849,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 849,
+                        lineNumber: 848,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1876,20 +1876,20 @@ function CRMSalesPipeline() {
                                                     children: "Customer Success Metrics"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 890,
+                                                    lineNumber: 889,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Key performance indicators"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 891,
+                                                    lineNumber: 890,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 889,
+                                            lineNumber: 888,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1904,7 +1904,7 @@ function CRMSalesPipeline() {
                                                                 children: "Total Customers"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 896,
+                                                                lineNumber: 895,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1912,13 +1912,13 @@ function CRMSalesPipeline() {
                                                                 children: customerSuccessData.metrics.totalCustomers
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 897,
+                                                                lineNumber: 896,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 895,
+                                                        lineNumber: 894,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1929,7 +1929,7 @@ function CRMSalesPipeline() {
                                                                 children: "Active Customers"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 900,
+                                                                lineNumber: 899,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1937,13 +1937,13 @@ function CRMSalesPipeline() {
                                                                 children: customerSuccessData.metrics.activeCustomers
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 901,
+                                                                lineNumber: 900,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 899,
+                                                        lineNumber: 898,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1954,7 +1954,7 @@ function CRMSalesPipeline() {
                                                                 children: "Net Retention Rate"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 904,
+                                                                lineNumber: 903,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1965,13 +1965,13 @@ function CRMSalesPipeline() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 905,
+                                                                lineNumber: 904,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 903,
+                                                        lineNumber: 902,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1982,7 +1982,7 @@ function CRMSalesPipeline() {
                                                                 children: "Avg Health Score"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 908,
+                                                                lineNumber: 907,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1993,13 +1993,13 @@ function CRMSalesPipeline() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 909,
+                                                                lineNumber: 908,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 907,
+                                                        lineNumber: 906,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2010,7 +2010,7 @@ function CRMSalesPipeline() {
                                                                 children: "Monthly Revenue"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 912,
+                                                                lineNumber: 911,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2021,30 +2021,30 @@ function CRMSalesPipeline() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                lineNumber: 913,
+                                                                lineNumber: 912,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                        lineNumber: 911,
+                                                        lineNumber: 910,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 894,
+                                                lineNumber: 893,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 893,
+                                            lineNumber: 892,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 888,
+                                    lineNumber: 887,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2056,20 +2056,20 @@ function CRMSalesPipeline() {
                                                     children: "Customer Health Overview"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 922,
+                                                    lineNumber: 921,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                                     children: "Monitor customer success and health scores"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 923,
+                                                    lineNumber: 922,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 921,
+                                            lineNumber: 920,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2092,12 +2092,12 @@ function CRMSalesPipeline() {
                                                                                         children: customer.name.split(' ').map((n)=>n[0]).join('')
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                        lineNumber: 933,
+                                                                                        lineNumber: 932,
                                                                                         columnNumber: 61
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 932,
+                                                                                    lineNumber: 931,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2107,7 +2107,7 @@ function CRMSalesPipeline() {
                                                                                             children: customer.name
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 936,
+                                                                                            lineNumber: 935,
                                                                                             columnNumber: 61
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2118,19 +2118,19 @@ function CRMSalesPipeline() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 937,
+                                                                                            lineNumber: 936,
                                                                                             columnNumber: 61
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 935,
+                                                                                    lineNumber: 934,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 931,
+                                                                            lineNumber: 930,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2144,7 +2144,7 @@ function CRMSalesPipeline() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 941,
+                                                                                    lineNumber: 940,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2152,19 +2152,19 @@ function CRMSalesPipeline() {
                                                                                     children: "Annual Value"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 942,
+                                                                                    lineNumber: 941,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 940,
+                                                                            lineNumber: 939,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 930,
+                                                                    lineNumber: 929,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2177,7 +2177,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Health Score"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 948,
+                                                                                    lineNumber: 947,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2188,7 +2188,7 @@ function CRMSalesPipeline() {
                                                                                             className: "flex-1"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 950,
+                                                                                            lineNumber: 949,
                                                                                             columnNumber: 61
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2199,19 +2199,19 @@ function CRMSalesPipeline() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 951,
+                                                                                            lineNumber: 950,
                                                                                             columnNumber: 61
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 949,
+                                                                                    lineNumber: 948,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 947,
+                                                                            lineNumber: 946,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2221,7 +2221,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Adoption Rate"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 955,
+                                                                                    lineNumber: 954,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2232,7 +2232,7 @@ function CRMSalesPipeline() {
                                                                                             className: "flex-1"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 957,
+                                                                                            lineNumber: 956,
                                                                                             columnNumber: 61
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2243,25 +2243,25 @@ function CRMSalesPipeline() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                            lineNumber: 958,
+                                                                                            lineNumber: 957,
                                                                                             columnNumber: 61
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 956,
+                                                                                    lineNumber: 955,
                                                                                     columnNumber: 57
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 954,
+                                                                            lineNumber: 953,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 946,
+                                                                    lineNumber: 945,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2274,7 +2274,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Support Tickets:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 965,
+                                                                                    lineNumber: 964,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 " ",
@@ -2282,7 +2282,7 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 964,
+                                                                            lineNumber: 963,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2292,7 +2292,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Satisfaction:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 968,
+                                                                                    lineNumber: 967,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 " ",
@@ -2301,7 +2301,7 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 967,
+                                                                            lineNumber: 966,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2311,7 +2311,7 @@ function CRMSalesPipeline() {
                                                                                     children: "Renewal:"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 971,
+                                                                                    lineNumber: 970,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 " ",
@@ -2319,13 +2319,13 @@ function CRMSalesPipeline() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 970,
+                                                                            lineNumber: 969,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 963,
+                                                                    lineNumber: 962,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2339,14 +2339,14 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 977,
+                                                                                    lineNumber: 976,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "View Details"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 976,
+                                                                            lineNumber: 975,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2357,14 +2357,14 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 981,
+                                                                                    lineNumber: 980,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Contact"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 980,
+                                                                            lineNumber: 979,
                                                                             columnNumber: 53
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2375,70 +2375,70 @@ function CRMSalesPipeline() {
                                                                                     className: "h-3 w-3 mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                                    lineNumber: 985,
+                                                                                    lineNumber: 984,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 "Schedule QBR"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                            lineNumber: 984,
+                                                                            lineNumber: 983,
                                                                             columnNumber: 53
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                                    lineNumber: 975,
+                                                                    lineNumber: 974,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, customer.id, true, {
                                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                            lineNumber: 929,
+                                                            lineNumber: 928,
                                                             columnNumber: 45
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                    lineNumber: 927,
+                                                    lineNumber: 926,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                                lineNumber: 926,
+                                                lineNumber: 925,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                            lineNumber: 925,
+                                            lineNumber: 924,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                                    lineNumber: 920,
+                                    lineNumber: 919,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                            lineNumber: 886,
+                            lineNumber: 885,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                        lineNumber: 885,
+                        lineNumber: 884,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-                lineNumber: 661,
+                lineNumber: 660,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/dashboard/crm-sales-pipeline.tsx",
-        lineNumber: 589,
+        lineNumber: 588,
         columnNumber: 9
     }, this);
 }

@@ -1,0 +1,93 @@
+/* [project]/src/components/dashboard/auto-replies-engine.module.css [app-client] (css) */
+.auto-replies-engine-module__hoCOua__progressBar {
+  border-radius: 9999px;
+  height: .5rem;
+  transition: width .3s;
+}
+
+.auto-replies-engine-module__hoCOua__progressBarBlue {
+  background-color: #3b82f6;
+}
+
+.auto-replies-engine-module__hoCOua__progressBarGreen {
+  background-color: #10b981;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth10 {
+  width: 10%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth15 {
+  width: 15%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth20 {
+  width: 20%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth25 {
+  width: 25%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth30 {
+  width: 30%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth35 {
+  width: 35%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth40 {
+  width: 40%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth45 {
+  width: 45%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth50 {
+  width: 50%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth55 {
+  width: 55%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth60 {
+  width: 60%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth65 {
+  width: 65%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth70 {
+  width: 70%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth75 {
+  width: 75%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth80 {
+  width: 80%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth85 {
+  width: 85%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth90 {
+  width: 90%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth95 {
+  width: 95%;
+}
+
+.auto-replies-engine-module__hoCOua__progressWidth100 {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=src_components_dashboard_auto-replies-engine_module_c52d6d4a.css.map*/

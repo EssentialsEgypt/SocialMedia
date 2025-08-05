@@ -517,33 +517,33 @@ export function EnhancedAudienceTracker() {
           <h1 className="text-3xl font-bold">Audience Tracker</h1>
           <p className="text-muted-foreground">AI-powered audience insights and timing optimization</p>
         </div>
-                 <div className="flex items-center gap-4">
-           <div className="flex items-center gap-2">
-             <Switch
-               checked={aiAlertsEnabled}
-               onCheckedChange={setAiAlertsEnabled}
-             />
-             <Label>AI Alerts</Label>
-           </div>
-           <div className="flex items-center gap-2">
-             <Switch
-               checked={realTimeTracking}
-               onCheckedChange={setRealTimeTracking}
-             />
-             <Label>Real-time tracking</Label>
-           </div>
-           <div className="flex items-center gap-2">
-             <Switch
-               checked={vipAlertsEnabled}
-               onCheckedChange={setVipAlertsEnabled}
-             />
-             <Label>VIP Alerts</Label>
-           </div>
-           <Button onClick={handleOptimizeTiming} variant="outline">
-             <AIBrain className="h-4 w-4 mr-2" />
-             Optimize Timing
-           </Button>
-         </div>
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
+            <Switch
+              checked={aiAlertsEnabled}
+              onCheckedChange={setAiAlertsEnabled}
+            />
+            <Label>AI Alerts</Label>
+          </div>
+          <div className="flex items-center gap-2">
+            <Switch
+              checked={realTimeTracking}
+              onCheckedChange={setRealTimeTracking}
+            />
+            <Label>Real-time tracking</Label>
+          </div>
+          <div className="flex items-center gap-2">
+            <Switch
+              checked={vipAlertsEnabled}
+              onCheckedChange={setVipAlertsEnabled}
+            />
+            <Label>VIP Alerts</Label>
+          </div>
+          <Button onClick={handleOptimizeTiming} variant="outline">
+            <AIBrain className="h-4 w-4 mr-2" />
+            Optimize Timing
+          </Button>
+        </div>
       </div>
 
       {/* AI Alerts Section */}
@@ -551,8 +551,8 @@ export function EnhancedAudienceTracker() {
         <div className="space-y-2">
           {aiAlertsData.activeAlerts.map((alert) => (
             <Alert key={alert.id} className={`border-l-4 ${alert.priority === "high" ? "border-red-500 bg-red-50" :
-                alert.priority === "medium" ? "border-yellow-500 bg-yellow-50" :
-                  "border-blue-500 bg-blue-50"
+              alert.priority === "medium" ? "border-yellow-500 bg-yellow-50" :
+                "border-blue-500 bg-blue-50"
               }`}>
               <AlertTriangle className="h-4 w-4" />
               <AlertDescription className="flex items-center justify-between">
@@ -569,17 +569,17 @@ export function EnhancedAudienceTracker() {
 
       {/* Main Content Tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-4">
-                 <TabsList className="grid w-full grid-cols-9">
-           <TabsTrigger value="overview">Overview</TabsTrigger>
-           <TabsTrigger value="ai-timing">AI Timing</TabsTrigger>
-           <TabsTrigger value="forecaster">Forecaster</TabsTrigger>
-           <TabsTrigger value="platform-sync">Platform Sync</TabsTrigger>
-           <TabsTrigger value="drop-readiness">Drop Readiness</TabsTrigger>
-           <TabsTrigger value="competitor-scan">Competitor Scan</TabsTrigger>
-           <TabsTrigger value="ai-suggestions">AI Suggestions</TabsTrigger>
-           <TabsTrigger value="vip-customers">VIP Customers</TabsTrigger>
-           <TabsTrigger value="demographics">Demographics</TabsTrigger>
-         </TabsList>
+        <TabsList className="grid w-full grid-cols-9">
+          <TabsTrigger value="overview">Overview</TabsTrigger>
+          <TabsTrigger value="ai-timing">AI Timing</TabsTrigger>
+          <TabsTrigger value="forecaster">Forecaster</TabsTrigger>
+          <TabsTrigger value="platform-sync">Platform Sync</TabsTrigger>
+          <TabsTrigger value="drop-readiness">Drop Readiness</TabsTrigger>
+          <TabsTrigger value="competitor-scan">Competitor Scan</TabsTrigger>
+          <TabsTrigger value="ai-suggestions">AI Suggestions</TabsTrigger>
+          <TabsTrigger value="vip-customers">VIP Customers</TabsTrigger>
+          <TabsTrigger value="demographics">Demographics</TabsTrigger>
+        </TabsList>
 
         {/* Overview Tab - Original Content */}
         <TabsContent value="overview" className="space-y-4">
@@ -1083,220 +1083,219 @@ export function EnhancedAudienceTracker() {
           </div>
         </TabsContent>
 
-                 {/* VIP Customers Tab - VIP AI Logic Start */}
-         <TabsContent value="vip-customers" className="space-y-4">
-           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-             {/* VIP Metrics Overview */}
-             <Card>
-               <CardHeader>
-                 <CardTitle className="flex items-center gap-2">
-                   <Star className="h-5 w-5 text-yellow-500" />
-                   VIP Metrics
-                 </CardTitle>
-                 <CardDescription>Real-time VIP customer insights</CardDescription>
-               </CardHeader>
-               <CardContent>
-                 <div className="space-y-4">
-                   <div className="grid grid-cols-2 gap-4">
-                     <div className="text-center">
-                       <div className="text-2xl font-bold text-blue-600">{vipCustomerData.vipMetrics.totalVIPs}</div>
-                       <div className="text-sm text-muted-foreground">Total VIPs</div>
-                     </div>
-                     <div className="text-center">
-                       <div className="text-2xl font-bold text-green-600">{vipCustomerData.vipMetrics.activeVIPs}</div>
-                       <div className="text-sm text-muted-foreground">Active VIPs</div>
-                     </div>
-                   </div>
-                   <div className="grid grid-cols-2 gap-4">
-                     <div className="text-center">
-                       <div className="text-xl font-bold text-red-600">{vipCustomerData.vipMetrics.atRiskVIPs}</div>
-                       <div className="text-sm text-muted-foreground">At Risk</div>
-                     </div>
-                     <div className="text-center">
-                       <div className="text-xl font-bold text-purple-600">{vipCustomerData.vipMetrics.newVIPs}</div>
-                       <div className="text-sm text-muted-foreground">New VIPs</div>
-                     </div>
-                   </div>
-                   <Separator />
-                   <div className="space-y-2">
-                     <div className="flex justify-between text-sm">
-                       <span>Avg Spend</span>
-                       <span className="font-medium">${vipCustomerData.vipMetrics.averageSpend.toLocaleString()}</span>
-                     </div>
-                     <div className="flex justify-between text-sm">
-                       <span>Retention Rate</span>
-                       <span className="font-medium">{vipCustomerData.vipMetrics.retentionRate}%</span>
-                     </div>
-                     <div className="flex justify-between text-sm">
-                       <span>Engagement Rate</span>
-                       <span className="font-medium">{vipCustomerData.vipMetrics.engagementRate}%</span>
-                     </div>
-                   </div>
-                 </div>
-               </CardContent>
-             </Card>
+        {/* VIP Customers Tab - VIP AI Logic Start */}
+        <TabsContent value="vip-customers" className="space-y-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {/* VIP Metrics Overview */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Star className="h-5 w-5 text-yellow-500" />
+                  VIP Metrics
+                </CardTitle>
+                <CardDescription>Real-time VIP customer insights</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-blue-600">{vipCustomerData.vipMetrics.totalVIPs}</div>
+                      <div className="text-sm text-muted-foreground">Total VIPs</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-green-600">{vipCustomerData.vipMetrics.activeVIPs}</div>
+                      <div className="text-sm text-muted-foreground">Active VIPs</div>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="text-center">
+                      <div className="text-xl font-bold text-red-600">{vipCustomerData.vipMetrics.atRiskVIPs}</div>
+                      <div className="text-sm text-muted-foreground">At Risk</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-xl font-bold text-purple-600">{vipCustomerData.vipMetrics.newVIPs}</div>
+                      <div className="text-sm text-muted-foreground">New VIPs</div>
+                    </div>
+                  </div>
+                  <Separator />
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-sm">
+                      <span>Avg Spend</span>
+                      <span className="font-medium">${vipCustomerData.vipMetrics.averageSpend.toLocaleString()}</span>
+                    </div>
+                    <div className="flex justify-between text-sm">
+                      <span>Retention Rate</span>
+                      <span className="font-medium">{vipCustomerData.vipMetrics.retentionRate}%</span>
+                    </div>
+                    <div className="flex justify-between text-sm">
+                      <span>Engagement Rate</span>
+                      <span className="font-medium">{vipCustomerData.vipMetrics.engagementRate}%</span>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
 
-             {/* VIP Alerts */}
-             <Card>
-               <CardHeader>
-                 <CardTitle className="flex items-center gap-2">
-                   <Bell className="h-5 w-5 text-red-500" />
-                   VIP Alerts
-                 </CardTitle>
-                 <CardDescription>AI-powered VIP notifications</CardDescription>
-               </CardHeader>
-               <CardContent>
-                 <div className="space-y-3">
-                   {vipCustomerData.vipAlerts.map((alert) => (
-                     <div key={alert.id} className={`p-3 border rounded-lg ${
-                       alert.priority === "high" ? "border-red-200 bg-red-50" :
-                       "border-yellow-200 bg-yellow-50"
-                     }`}>
-                       <div className="flex items-start gap-2">
-                         <AlertTriangle className="h-4 w-4 text-red-500 mt-0.5 flex-shrink-0" />
-                         <div className="flex-1">
-                           <div className="font-medium text-sm">{alert.customer}</div>
-                           <div className="text-xs text-muted-foreground">{alert.message}</div>
-                           <div className="text-xs text-blue-600 mt-1">{alert.suggestedAction}</div>
-                         </div>
-                       </div>
-                     </div>
-                   ))}
-                 </div>
-               </CardContent>
-             </Card>
+            {/* VIP Alerts */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Bell className="h-5 w-5 text-red-500" />
+                  VIP Alerts
+                </CardTitle>
+                <CardDescription>AI-powered VIP notifications</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {vipCustomerData.vipAlerts.map((alert) => (
+                    <div key={alert.id} className={`p-3 border rounded-lg ${alert.priority === "high" ? "border-red-200 bg-red-50" :
+                        "border-yellow-200 bg-yellow-50"
+                      }`}>
+                      <div className="flex items-start gap-2">
+                        <AlertTriangle className="h-4 w-4 text-red-500 mt-0.5 flex-shrink-0" />
+                        <div className="flex-1">
+                          <div className="font-medium text-sm">{alert.customer}</div>
+                          <div className="text-xs text-muted-foreground">{alert.message}</div>
+                          <div className="text-xs text-blue-600 mt-1">{alert.suggestedAction}</div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
 
-             {/* VIP Campaigns */}
-             <Card>
-               <CardHeader>
-                 <CardTitle className="flex items-center gap-2">
-                   <MessageSquare className="h-5 w-5 text-blue-500" />
-                   VIP Campaigns
-                 </CardTitle>
-                 <CardDescription>Automated VIP outreach</CardDescription>
-               </CardHeader>
-               <CardContent>
-                 <div className="space-y-3">
-                   {vipCustomerData.vipCampaigns.map((campaign) => (
-                     <div key={campaign.id} className="p-3 border rounded-lg">
-                       <div className="flex items-center justify-between mb-2">
-                         <div className="font-medium text-sm">{campaign.target}</div>
-                         <Badge variant={campaign.status === "scheduled" ? "default" : "secondary"}>
-                           {campaign.status}
-                         </Badge>
-                       </div>
-                       <div className="text-xs text-muted-foreground mb-2">{campaign.strategy}</div>
-                       <div className="text-xs">
-                         <div className="font-medium">Products:</div>
-                         <div className="text-muted-foreground">{campaign.products.join(", ")}</div>
-                       </div>
-                     </div>
-                   ))}
-                 </div>
-               </CardContent>
-             </Card>
-           </div>
+            {/* VIP Campaigns */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <MessageSquare className="h-5 w-5 text-blue-500" />
+                  VIP Campaigns
+                </CardTitle>
+                <CardDescription>Automated VIP outreach</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {vipCustomerData.vipCampaigns.map((campaign) => (
+                    <div key={campaign.id} className="p-3 border rounded-lg">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="font-medium text-sm">{campaign.target}</div>
+                        <Badge variant={campaign.status === "scheduled" ? "default" : "secondary"}>
+                          {campaign.status}
+                        </Badge>
+                      </div>
+                      <div className="text-xs text-muted-foreground mb-2">{campaign.strategy}</div>
+                      <div className="text-xs">
+                        <div className="font-medium">Products:</div>
+                        <div className="text-muted-foreground">{campaign.products.join(", ")}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
 
-           {/* VIP Customer List */}
-           <Card>
-             <CardHeader>
-               <CardTitle className="flex items-center gap-2">
-                 <Users className="h-5 w-5" />
-                 VIP Customer Database
-               </CardTitle>
-               <CardDescription>Detailed VIP customer profiles with AI insights</CardDescription>
-             </CardHeader>
-             <CardContent>
-               <div className="space-y-4">
-                 {vipCustomerData.vipCustomers.map((vip) => (
-                   <div key={vip.id} className="border rounded-lg p-4">
-                     <div className="flex items-center justify-between mb-3">
-                       <div className="flex items-center gap-3">
-                         <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold">
-                           {vip.name.split(" ").map(n => n[0]).join("")}
-                         </div>
-                         <div>
-                           <div className="font-medium">{vip.name}</div>
-                           <div className="text-sm text-muted-foreground">{vip.tier}</div>
-                         </div>
-                       </div>
-                       <div className="text-right">
-                         <div className="text-lg font-bold text-blue-600">${vip.totalSpent.toLocaleString()}</div>
-                         <div className="text-sm text-muted-foreground">{vip.orderCount} orders</div>
-                       </div>
-                     </div>
-                     
-                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-3">
-                       <div className="text-center">
-                         <div className="text-sm text-muted-foreground">Purchase Probability</div>
-                         <div className="text-lg font-bold text-green-600">{vip.purchaseProbability}%</div>
-                       </div>
-                       <div className="text-center">
-                         <div className="text-sm text-muted-foreground">Engagement Score</div>
-                         <div className="text-lg font-bold text-blue-600">{vip.engagementScore}%</div>
-                       </div>
-                       <div className="text-center">
-                         <div className="text-sm text-muted-foreground">Influence Index</div>
-                         <div className="text-lg font-bold text-purple-600">{vip.influenceIndex}%</div>
-                       </div>
-                       <div className="text-center">
-                         <div className="text-sm text-muted-foreground">Days Since Order</div>
-                         <div className={`text-lg font-bold ${vip.daysSinceLastOrder > 30 ? "text-red-600" : "text-green-600"}`}>
-                           {vip.daysSinceLastOrder}
-                         </div>
-                       </div>
-                     </div>
+          {/* VIP Customer List */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Users className="h-5 w-5" />
+                VIP Customer Database
+              </CardTitle>
+              <CardDescription>Detailed VIP customer profiles with AI insights</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                {vipCustomerData.vipCustomers.map((vip) => (
+                  <div key={vip.id} className="border rounded-lg p-4">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold">
+                          {vip.name.split(" ").map(n => n[0]).join("")}
+                        </div>
+                        <div>
+                          <div className="font-medium">{vip.name}</div>
+                          <div className="text-sm text-muted-foreground">{vip.tier}</div>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <div className="text-lg font-bold text-blue-600">${vip.totalSpent.toLocaleString()}</div>
+                        <div className="text-sm text-muted-foreground">{vip.orderCount} orders</div>
+                      </div>
+                    </div>
 
-                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                       <div>
-                         <div className="text-sm font-medium mb-2">Recent Activity</div>
-                         <div className="space-y-1">
-                           {vip.recentActivity.slice(0, 3).map((activity, index) => (
-                             <div key={index} className="text-xs text-muted-foreground">
-                               {activity.type.replace("_", " ")}: {activity.item || activity.content}
-                             </div>
-                           ))}
-                         </div>
-                       </div>
-                       <div>
-                         <div className="text-sm font-medium mb-2">Emotional Triggers</div>
-                         <div className="flex flex-wrap gap-1">
-                           {vip.emotionalTriggers.map((trigger, index) => (
-                             <Badge key={index} variant="outline" className="text-xs">
-                               {trigger}
-                             </Badge>
-                           ))}
-                         </div>
-                       </div>
-                     </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-3">
+                      <div className="text-center">
+                        <div className="text-sm text-muted-foreground">Purchase Probability</div>
+                        <div className="text-lg font-bold text-green-600">{vip.purchaseProbability}%</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-sm text-muted-foreground">Engagement Score</div>
+                        <div className="text-lg font-bold text-blue-600">{vip.engagementScore}%</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-sm text-muted-foreground">Influence Index</div>
+                        <div className="text-lg font-bold text-purple-600">{vip.influenceIndex}%</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-sm text-muted-foreground">Days Since Order</div>
+                        <div className={`text-lg font-bold ${vip.daysSinceLastOrder > 30 ? "text-red-600" : "text-green-600"}`}>
+                          {vip.daysSinceLastOrder}
+                        </div>
+                      </div>
+                    </div>
 
-                     <div className="mt-3 flex gap-2">
-                       <Button size="sm" variant="outline" onClick={() => handleVipEmail(vip.name)}>
-                         <Mail className="h-3 w-3 mr-1" />
-                         Email
-                       </Button>
-                       <Button size="sm" variant="outline" onClick={() => handleVipWhatsApp(vip.name)}>
-                         <MessageCircle className="h-3 w-3 mr-1" />
-                         WhatsApp
-                       </Button>
-                       <Button size="sm" variant="outline" onClick={() => handleVipDM(vip.name)}>
-                         <Instagram className="h-3 w-3 mr-1" />
-                         DM
-                       </Button>
-                       <Button size="sm" variant="outline" onClick={() => handleVipAccess(vip.name)}>
-                         <Star className="h-3 w-3 mr-1" />
-                         VIP Access
-                       </Button>
-                     </div>
-                   </div>
-                 ))}
-               </div>
-             </CardContent>
-           </Card>
-         </TabsContent>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div>
+                        <div className="text-sm font-medium mb-2">Recent Activity</div>
+                        <div className="space-y-1">
+                          {vip.recentActivity.slice(0, 3).map((activity, index) => (
+                            <div key={index} className="text-xs text-muted-foreground">
+                              {activity.type.replace("_", " ")}: {activity.item || (activity as any).content || 'N/A'}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-sm font-medium mb-2">Emotional Triggers</div>
+                        <div className="flex flex-wrap gap-1">
+                          {vip.emotionalTriggers.map((trigger, index) => (
+                            <Badge key={index} variant="outline" className="text-xs">
+                              {trigger}
+                            </Badge>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
 
-         {/* Demographics Tab - Original Content */}
-         <TabsContent value="demographics" className="space-y-4">
+                    <div className="mt-3 flex gap-2">
+                      <Button size="sm" variant="outline" onClick={() => handleVipEmail(vip.name)}>
+                        <Mail className="h-3 w-3 mr-1" />
+                        Email
+                      </Button>
+                      <Button size="sm" variant="outline" onClick={() => handleVipWhatsApp(vip.name)}>
+                        <MessageCircle className="h-3 w-3 mr-1" />
+                        WhatsApp
+                      </Button>
+                      <Button size="sm" variant="outline" onClick={() => handleVipDM(vip.name)}>
+                        <Instagram className="h-3 w-3 mr-1" />
+                        DM
+                      </Button>
+                      <Button size="sm" variant="outline" onClick={() => handleVipAccess(vip.name)}>
+                        <Star className="h-3 w-3 mr-1" />
+                        VIP Access
+                      </Button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        {/* Demographics Tab - Original Content */}
+        <TabsContent value="demographics" className="space-y-4">
           <Card>
             <CardHeader>
               <CardTitle>Demographics</CardTitle>
