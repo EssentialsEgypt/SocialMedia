@@ -1,6 +1,0 @@
-{
-  "/api/ai-strategy-composer/goals": "pages/api/ai-strategy-composer/goals.js",
-  "/api/ai-strategy-composer/metrics": "pages/api/ai-strategy-composer/metrics.js",
-  "/api/ai-strategy-composer/strategies": "pages/api/ai-strategy-composer/strategies.js",
-  "/api/auto-messages": "pages/api/auto-messages.js"
-}
