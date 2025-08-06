@@ -75,7 +75,7 @@ export function FollowUpModal({ cart, onClose, onSend, loading }: FollowUpModalP
   const mockSuggestions: AISuggestion[] = [
     {
       strategy: "Urgent Reminder",
-      message: `Hi ${cart.customerName}! 👋 I noticed you left some amazing items in your cart. Don't miss out on ${cart.items[0]?.name} - it's still waiting for you! Complete your purchase now and get 10% off with code SAVE10. 🛒`,
+                      message: `Hi ${cart.customerName}! 👋 I noticed you left some amazing items in your cart. Don&apos;t miss out on ${cart.items[0]?.name} - it&apos;s still waiting for you! Complete your purchase now and get 10% off with code SAVE10. 🛒`,
       confidence: 0.92,
       reasoning: "High-value cart with recent activity, urgent reminder with discount",
       timing: "Send immediately",

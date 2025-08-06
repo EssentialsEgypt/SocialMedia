@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Textarea } from "@/components/ui/textarea"
-import { 
-    MessageSquare, 
-    Brain, 
-    Send, 
-    Clock, 
+import {
+    MessageSquare,
+    Brain,
+    Send,
+    Clock,
     CheckCircle,
     AlertTriangle,
     Zap,
@@ -143,10 +143,10 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
 
     const generateWeeklyFeedback = async () => {
         setIsGenerating(true)
-        
+
         // Simulate AI generation
         await new Promise(resolve => setTimeout(resolve, 2000))
-        
+
         const newFeedbacks = await performAIGeneration()
         setFeedbacks(prev => [...newFeedbacks, ...prev])
         setIsGenerating(false)
@@ -155,30 +155,30 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
     const performAIGeneration = async (): Promise<FeedbackData[]> => {
         // Mock AI generation - in real implementation, this would use OpenAI
         const newFeedbacks: FeedbackData[] = []
-        
+
         teamMembers.forEach(member => {
             const feedback = generateFeedbackForMember(member)
             if (feedback) {
                 newFeedbacks.push(feedback)
             }
         })
-        
+
         return newFeedbacks
     }
 
     const generateFeedbackForMember = (member: TeamMember): FeedbackData | null => {
         // Check if feedback already exists for this week
-        const existingFeedback = feedbacks.find(f => 
-            f.memberId === member.id && 
+        const existingFeedback = feedbacks.find(f =>
+            f.memberId === member.id &&
             f.feedbackType === 'weekly' &&
             new Date(f.generatedAt).getTime() > Date.now() - 7 * 24 * 60 * 60 * 1000
         )
-        
+
         if (existingFeedback) return null
 
         const performance = member.completedTasks / (member.openTasks + member.completedTasks)
         const tone = performance > 0.8 ? 'positive' : performance > 0.6 ? 'constructive' : 'constructive'
-        
+
         let content = ""
         let strengths: string[] = []
         let areas: string[] = []
@@ -219,16 +219,16 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
     }
 
     const sendFeedback = async (feedbackId: string) => {
-        setFeedbacks(prev => prev.map(feedback => 
-            feedback.id === feedbackId 
+        setFeedbacks(prev => prev.map(feedback =>
+            feedback.id === feedbackId
                 ? { ...feedback, status: 'sent' as const }
                 : feedback
         ))
-        
+
         // Simulate delivery
         setTimeout(() => {
-            setFeedbacks(prev => prev.map(feedback => 
-                feedback.id === feedbackId 
+            setFeedbacks(prev => prev.map(feedback =>
+                feedback.id === feedbackId
                     ? { ...feedback, status: 'delivered' as const }
                     : feedback
             ))
@@ -236,16 +236,16 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
     }
 
     const scheduleFeedback = async (feedbackId: string, scheduledFor: Date) => {
-        setFeedbacks(prev => prev.map(feedback => 
-            feedback.id === feedbackId 
+        setFeedbacks(prev => prev.map(feedback =>
+            feedback.id === feedbackId
                 ? { ...feedback, status: 'scheduled' as const, scheduledFor }
                 : feedback
         ))
     }
 
     const editFeedback = async (feedbackId: string, content: string) => {
-        setFeedbacks(prev => prev.map(feedback => 
-            feedback.id === feedbackId 
+        setFeedbacks(prev => prev.map(feedback =>
+            feedback.id === feedbackId
                 ? { ...feedback, content, aiGenerated: false }
                 : feedback
         ))
@@ -320,8 +320,8 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                         <MessageSquare className="h-5 w-5" />
                         <span>AI Feedback Generator</span>
                     </div>
-                    <Button 
-                        onClick={generateWeeklyFeedback} 
+                    <Button
+                        onClick={generateWeeklyFeedback}
                         disabled={isGenerating}
                         size="sm"
                         className="bg-blue-600 hover:bg-blue-700"
@@ -390,7 +390,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
                                 <label className="text-sm text-gray-400 mb-2 block">Select Team Member</label>
-                                <select 
+                                <select
                                     className="w-full bg-gray-800 border border-gray-600 rounded px-3 py-2 text-white"
                                     value={selectedMember || ""}
                                     onChange={(e) => setSelectedMember(e.target.value)}
@@ -406,7 +406,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                             </div>
                             <div>
                                 <label className="text-sm text-gray-400 mb-2 block">Feedback Type</label>
-                                <select 
+                                <select
                                     className="w-full bg-gray-800 border border-gray-600 rounded px-3 py-2 text-white"
                                     aria-label="Select feedback type"
                                 >
@@ -419,7 +419,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                         </div>
                         <div>
                             <label className="text-sm text-gray-400 mb-2 block">Feedback Content</label>
-                            <Textarea 
+                            <Textarea
                                 placeholder="Write your feedback here..."
                                 value={customFeedback}
                                 onChange={(e) => setCustomFeedback(e.target.value)}
@@ -427,7 +427,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                 rows={4}
                             />
                         </div>
-                        <Button 
+                        <Button
                             onClick={submitCustomFeedback}
                             disabled={!selectedMember || !customFeedback.trim()}
                             className="bg-green-600 hover:bg-green-700"
@@ -460,7 +460,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                             </Badge>
                                         </div>
                                     </div>
-                                    
+
                                     <div className="bg-gray-800/50 p-3 rounded border border-gray-600">
                                         <p className="text-sm text-white">{feedback.content}</p>
                                     </div>
@@ -479,7 +479,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                                     </div>
                                                 </div>
                                             )}
-                                            
+
                                             {feedback.areas.length > 0 && (
                                                 <div>
                                                     <p className="text-sm text-yellow-400 font-medium">Areas for Improvement:</p>
@@ -492,7 +492,7 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                                     </div>
                                                 </div>
                                             )}
-                                            
+
                                             {feedback.recommendations.length > 0 && (
                                                 <div>
                                                     <p className="text-sm text-blue-400 font-medium">Recommendations:</p>
@@ -509,16 +509,16 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                     )}
 
                                     <div className="flex space-x-2">
-                                        <Button 
-                                            size="sm" 
+                                        <Button
+                                            size="sm"
                                             onClick={() => sendFeedback(feedback.id)}
                                             className="bg-green-600 hover:bg-green-700"
                                         >
                                             <Send className="h-4 w-4 mr-1" />
                                             Send Now
                                         </Button>
-                                        <Button 
-                                            size="sm" 
+                                        <Button
+                                            size="sm"
                                             variant="outline"
                                             onClick={() => scheduleFeedback(feedback.id, new Date(Date.now() + 24 * 60 * 60 * 1000))}
                                             className="border-yellow-500 text-yellow-500 hover:bg-yellow-500/10"
@@ -558,9 +558,9 @@ export function FeedbackGenerator({ teamMembers }: FeedbackGeneratorProps) {
                                         )}
                                     </div>
                                 </div>
-                                
-                                <p className="text-sm text-gray-300 mb-3">"{feedback.content}"</p>
-                                
+
+                                <p className="text-sm text-gray-300 mb-3">&quot;{feedback.content}&quot;</p>
+
                                 <div className="flex items-center justify-between text-xs text-gray-400">
                                     <span>{feedback.feedbackType}</span>
                                     <span>{feedback.tone} tone</span>

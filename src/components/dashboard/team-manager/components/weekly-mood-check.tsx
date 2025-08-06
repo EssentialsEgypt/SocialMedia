@@ -320,8 +320,8 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
                                                 key={mood.value}
                                                 onClick={() => setCurrentMood(mood.value as any)}
                                                 className={`flex flex-col items-center space-y-1 p-3 rounded-lg border transition-all ${currentMood === mood.value
-                                                        ? 'border-green-500 bg-green-500/20'
-                                                        : 'border-gray-600 hover:border-gray-500'
+                                                    ? 'border-green-500 bg-green-500/20'
+                                                    : 'border-gray-600 hover:border-gray-500'
                                                     }`}
                                             >
                                                 <span className={getMoodColor(mood.value)}>{mood.icon}</span>
@@ -413,7 +413,7 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
 
                                     {memberMoodData[0]?.notes && (
                                         <div className="mt-3 p-2 bg-gray-700/50 rounded text-xs text-gray-300">
-                                            "{memberMoodData[0].notes}"
+                                            &quot;{memberMoodData[0].notes}&quot;
                                         </div>
                                     )}
                                 </div>

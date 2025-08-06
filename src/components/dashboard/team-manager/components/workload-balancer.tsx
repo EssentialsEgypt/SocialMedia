@@ -395,7 +395,7 @@ export function WorkloadBalancer({ teamMembers }: WorkloadBalancerProps) {
                             <p>• Optimal load: 60-80% capacity</p>
                             <p>• Overload threshold: 85% capacity</p>
                             <p>• Underutilization: below 50% capacity</p>
-                            <p>• Stress correlation: load > 80% = +40% stress</p>
+                            <p>• Stress correlation: load &gt; 80% = +40% stress</p>
                         </div>
                     </div>
                     <div className="bg-gray-800/50 p-4 rounded-lg">

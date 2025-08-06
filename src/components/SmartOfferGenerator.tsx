@@ -84,7 +84,7 @@ export function SmartOfferGenerator() {
             predictedConversion: 89.4,
             predictedRevenue: 167,
             conditions: ["Valid for 2 hours only", "One-time use"],
-            message: "⏰ FLASH SALE: 15% off your cart for the next 2 hours only! Don't miss out - this offer expires soon! 🔥"
+                            message: "⏰ FLASH SALE: 15% off your cart for the next 2 hours only! Don&apos;t miss out - this offer expires soon! 🔥"
         },
         {
             id: "4",

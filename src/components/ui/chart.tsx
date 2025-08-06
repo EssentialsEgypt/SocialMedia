@@ -213,7 +213,7 @@ function ChartTooltipContent({
                           }
                         }}
                         className={cn(
-                          "shrink-0 rounded-[2px] border-(--color-border) bg-(--color-bg)",
+                          "shrink-0 rounded-[2px] border-(--color-border) bg-(--color-bg) [&]:bg-[var(--color-bg)] [&]:border-[var(--color-border)]",
                           {
                             "h-2.5 w-2.5": indicator === "dot",
                             "w-1": indicator === "line",
@@ -222,7 +222,6 @@ function ChartTooltipContent({
                             "my-0.5": nestLabel && indicator === "dashed",
                           }
                         )}
-                        className="[&]:bg-[var(--color-bg)] [&]:border-[var(--color-border)]"
                       />
                     )
                   )}
@@ -289,7 +288,7 @@ function ChartLegendContent({
           <div
             key={item.value}
             className={cn(
-              "[&>svg]:text-muted-foreground flex items-center gap-1.5 [&>svg]:h-3 [&>svg]:w-3"
+              "flex items-center gap-1.5 [&>svg]:text-muted-foreground [&>svg]:h-3 [&>svg]:w-3"
             )}
           >
             {itemConfig?.icon && !hideIcon ? (

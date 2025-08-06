@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Progress } from "@/components/ui/progress"
-import { 
-    Heart, 
-    Brain, 
-    TrendingUp, 
-    TrendingDown, 
+import {
+    Heart,
+    Brain,
+    TrendingUp,
+    TrendingDown,
     AlertTriangle,
     Activity,
     Clock,
@@ -170,10 +170,10 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
 
     const analyzeMoodAndStress = async () => {
         setIsAnalyzing(true)
-        
+
         // Simulate AI analysis
         await new Promise(resolve => setTimeout(resolve, 3000))
-        
+
         // In real implementation, this would call OpenAI API for mood analysis
         const newAlerts = await performAIAnalysis()
         setStressAlerts(prev => [...prev, ...newAlerts])
@@ -183,7 +183,7 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
     const performAIAnalysis = async (): Promise<StressAlert[]> => {
         // Mock AI analysis - in real implementation, this would use OpenAI
         const newAlerts: StressAlert[] = []
-        
+
         moodData.forEach(mood => {
             if (mood.stressLevel > 70) {
                 newAlerts.push({
@@ -199,7 +199,7 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
                 })
             }
         })
-        
+
         return newAlerts
     }
 
@@ -279,24 +279,24 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
     }
 
     const acknowledgeAlert = (alertId: string) => {
-        setStressAlerts(prev => prev.map(alert => 
-            alert.id === alertId 
+        setStressAlerts(prev => prev.map(alert =>
+            alert.id === alertId
                 ? { ...alert, status: 'acknowledged' as const }
                 : alert
         ))
     }
 
     const resolveAlert = (alertId: string) => {
-        setStressAlerts(prev => prev.map(alert => 
-            alert.id === alertId 
+        setStressAlerts(prev => prev.map(alert =>
+            alert.id === alertId
                 ? { ...alert, status: 'resolved' as const }
                 : alert
         ))
     }
 
     const activeAlerts = stressAlerts.filter(alert => alert.status === 'active')
-    const averageStressLevel = moodData.length > 0 
-        ? moodData.reduce((sum, mood) => sum + mood.stressLevel, 0) / moodData.length 
+    const averageStressLevel = moodData.length > 0
+        ? moodData.reduce((sum, mood) => sum + mood.stressLevel, 0) / moodData.length
         : 0
 
     return (
@@ -307,8 +307,8 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
                         <Heart className="h-5 w-5" />
                         <span>AI Mood & Stress Tracker</span>
                     </div>
-                    <Button 
-                        onClick={analyzeMoodAndStress} 
+                    <Button
+                        onClick={analyzeMoodAndStress}
                         disabled={isAnalyzing}
                         size="sm"
                         className="bg-purple-600 hover:bg-purple-700"
@@ -428,30 +428,29 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
                                             <p className="font-medium text-white">{alert.memberName}</p>
                                             <p className="text-sm text-gray-400">{alert.message}</p>
                                         </div>
-                                        <Badge className={`${
-                                            alert.severity === 'critical' ? 'bg-red-500 text-white' :
-                                            alert.severity === 'high' ? 'bg-orange-500 text-white' :
-                                            'bg-yellow-500 text-black'
-                                        }`}>
+                                        <Badge className={`${alert.severity === 'critical' ? 'bg-red-500 text-white' :
+                                                alert.severity === 'high' ? 'bg-orange-500 text-white' :
+                                                    'bg-yellow-500 text-black'
+                                            }`}>
                                             {alert.severity}
                                         </Badge>
                                     </div>
-                                    
+
                                     <div className="bg-blue-500/10 p-3 rounded border border-blue-500/20">
                                         <p className="text-sm text-blue-400 font-medium">AI Recommendation:</p>
                                         <p className="text-sm text-white">{alert.aiRecommendation}</p>
                                     </div>
 
                                     <div className="flex space-x-2">
-                                        <Button 
-                                            size="sm" 
+                                        <Button
+                                            size="sm"
                                             onClick={() => acknowledgeAlert(alert.id)}
                                             className="bg-blue-600 hover:bg-blue-700"
                                         >
                                             Acknowledge
                                         </Button>
-                                        <Button 
-                                            size="sm" 
+                                        <Button
+                                            size="sm"
                                             onClick={() => resolveAlert(alert.id)}
                                             className="bg-green-600 hover:bg-green-700"
                                         >
@@ -491,16 +490,16 @@ export function AIMoodStressTracker({ teamMembers }: AIMoodStressTrackerProps) {
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 {mood.notes && (
-                                    <p className="text-sm text-gray-300 mb-3">"{mood.notes}"</p>
+                                    <p className="text-sm text-gray-300 mb-3">&quot;{mood.notes}&quot;</p>
                                 )}
-                                
+
                                 <div className="space-y-2">
                                     <p className="text-sm text-gray-400">AI Analysis:</p>
                                     <p className="text-sm text-white">{mood.aiAnalysis}</p>
                                 </div>
-                                
+
                                 <div className="mt-3">
                                     <p className="text-sm text-gray-400 mb-2">Recommendations:</p>
                                     <div className="flex flex-wrap gap-2">

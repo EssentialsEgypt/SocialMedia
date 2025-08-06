@@ -448,7 +448,7 @@ export default function LandingPage() {
                                         <DollarSign className="w-5 h-5 mr-2 text-yellow-400" />
                                         Real ROI Tracking
                                     </h4>
-                                    <p className="text-gray-300 text-sm">You don't just see numbers. You see value: who made you money, which ads worked, and where you're wasting resources.</p>
+                                    <p className="text-gray-300 text-sm">You don&apos;t just see numbers. You see value: who made you money, which ads worked, and where you&apos;re wasting resources.</p>
                                 </div>
                                 <div className="bg-gray-700/50 rounded-xl p-6">
                                     <h4 className="text-lg font-semibold text-white mb-3 flex items-center">

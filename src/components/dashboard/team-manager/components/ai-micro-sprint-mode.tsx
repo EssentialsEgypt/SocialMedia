@@ -213,7 +213,7 @@ export function AIMicroSprintMode({ teamMembers }: AIMicroSprintModeProps) {
             await new Promise(resolve => setTimeout(resolve, 2000))
 
             const insights = [
-                "Ahmed's productivity peaks between 9-11 AM. Schedule critical sprints then.",
+                "Ahmed&apos;s productivity peaks between 9-11 AM. Schedule critical sprints then.",
                 "Nada shows 40% better focus with 45-minute sessions vs 25-minute.",
                 "Team energy drops 15% after lunch. Consider lighter tasks.",
                 "Micro-breaks improve focus scores by 23% across the team.",
@@ -330,7 +330,7 @@ export function AIMicroSprintMode({ teamMembers }: AIMicroSprintModeProps) {
                                     <div className="space-y-3">
                                         <div>
                                             <p className="text-sm text-gray-400 mb-1">AI Motivation</p>
-                                            <p className="text-sm text-blue-300 italic">"{sprint.aiMotivation}"</p>
+                                            <p className="text-sm text-blue-300 italic">&quot;{sprint.aiMotivation}&quot;</p>
                                         </div>
 
                                         <div className="grid grid-cols-3 gap-2 text-sm">

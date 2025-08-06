@@ -474,7 +474,7 @@ export function AISmartSuggestionsEngine({ teamMembers }: AISmartSuggestionsEngi
                                         </div>
                                         <div>
                                             <p className="text-sm text-gray-400 mb-1">AI Reasoning</p>
-                                            <p className="text-sm text-purple-300 italic">"{suggestion.aiReasoning}"</p>
+                                            <p className="text-sm text-purple-300 italic">&quot;{suggestion.aiReasoning}&quot;</p>
                                         </div>
                                     </div>
 
