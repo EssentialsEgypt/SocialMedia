@@ -16,6 +16,8 @@ import RageIntel from "./rageintel"
 import { WebsiteAnalytics } from "./website-analytics"
 import { AIROIForecastEngine } from "./ai-roi-forecast-engine"
 import { AIStrategyComposer } from "./ai-strategy-composer"
+import { TeamManager } from "./team-manager"
+import { Users } from "lucide-react"
 
 const sidebarItems = [
   { id: "dashboard", label: "AI Business Dashboard", icon: BarChart3 },
@@ -32,6 +34,7 @@ const sidebarItems = [
   { id: "analytics", label: "Analytics", icon: BarChart3 },
   { id: "forecast", label: "ROI Forecast", icon: BarChart3 },
   { id: "strategycomposer", label: "AI Strategy Composer", icon: BarChart3 },
+  { id: "team", label: "Team Manager", icon: Users },
 ]
 
 export function EnhancedSocialMediaDashboard() {
@@ -55,15 +58,17 @@ export function EnhancedSocialMediaDashboard() {
 
   // Load sidebar state from localStorage
   useEffect(() => {
-    const savedState = localStorage.getItem('sidebarCollapsed')
-    if (savedState !== null && !isMobile) {
-      setSidebarCollapsed(JSON.parse(savedState))
+    if (typeof window !== 'undefined') {
+      const savedState = localStorage.getItem('sidebarCollapsed')
+      if (savedState !== null && !isMobile) {
+        setSidebarCollapsed(JSON.parse(savedState))
+      }
     }
   }, [isMobile])
 
   // Save sidebar state to localStorage
   useEffect(() => {
-    if (!isMobile) {
+    if (typeof window !== 'undefined' && !isMobile) {
       localStorage.setItem('sidebarCollapsed', JSON.stringify(sidebarCollapsed))
     }
   }, [sidebarCollapsed, isMobile])
@@ -102,6 +107,8 @@ export function EnhancedSocialMediaDashboard() {
         return <AIROIForecastEngine />
       case "strategycomposer":
         return <AIStrategyComposer />
+      case "team":
+        return <TeamManager />
       default:
         return <AIPoweredBusinessDashboard />
     }

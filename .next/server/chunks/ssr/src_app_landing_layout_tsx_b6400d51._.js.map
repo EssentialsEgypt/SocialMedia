@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/hamzaa/SocialMedia/src/app/landing/layout.tsx"],"sourcesContent":["import type { Metadata } from 'next'\r\n\r\nexport const metadata: Metadata = {\r\n    title: 'Essentials Enhanced - AI-Powered Business Operating System',\r\n    description: 'All your tools. One dashboard. Zero wasted hours. The business operating system powered by real AI.',\r\n    keywords: 'AI, business dashboard, social media management, automation, analytics, marketing',\r\n}\r\n\r\nexport default function LandingLayout({\r\n    children,\r\n}: {\r\n    children: React.ReactNode\r\n}) {\r\n    return (\r\n        <>\r\n            {children}\r\n        </>\r\n    )\r\n} "],"names":[],"mappings":";;;;;;AAEO,MAAM,WAAqB;IAC9B,OAAO;IACP,aAAa;IACb,UAAU;AACd;AAEe,SAAS,cAAc,EAClC,QAAQ,EAGX;IACG,qBACI;kBACK;;AAGb","debugId":null}}]
-}
