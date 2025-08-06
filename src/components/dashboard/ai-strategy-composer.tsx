@@ -182,7 +182,7 @@ export function AIStrategyComposer() {
           if (strategy.id === strategyId) {
             return {
               ...strategy,
-              actions: strategy.actions.map(action => 
+              actions: strategy.actions.map(action =>
                 action.id === actionId ? { ...action, status } : action
               )
             }
@@ -322,7 +322,7 @@ export function AIStrategyComposer() {
                     <h3 className="font-semibold text-purple-900">AI Goal Understanding</h3>
                   </div>
                   <p className="text-sm text-purple-700 mb-4">
-                    Tell me what you want to achieve. I'll analyze your goal and create a complete strategy.
+                    Tell me what you want to achieve. I&apos;ll analyze your goal and create a complete strategy.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-2 text-sm text-purple-600">
@@ -345,12 +345,12 @@ export function AIStrategyComposer() {
                     <Label htmlFor="goal-input">What's your goal?</Label>
                     <Textarea
                       id="goal-input"
-                      placeholder="e.g., I want to generate 300,000 EGP this month, I need to hit 1,000 orders in the next 21 days, I'm launching a new hoodie — help me do it right..."
+                      placeholder="e.g., I want to generate 300,000 EGP this month, I need to hit 1,000 orders in the next 21 days, I&apos;m launching a new hoodie — help me do it right..."
                       className="mt-1"
                       rows={4}
                     />
                   </div>
-                  <Button 
+                  <Button
                     className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
                     disabled={isLoading}
                   >

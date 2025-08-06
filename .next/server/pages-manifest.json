@@ -1,0 +1,18 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/ai-business-dashboard/brand-mood": "pages/api/ai-business-dashboard/brand-mood.js",
+  "/api/ai-business-dashboard/competitors": "pages/api/ai-business-dashboard/competitors.js",
+  "/api/ai-business-dashboard/drop-performance": "pages/api/ai-business-dashboard/drop-performance.js",
+  "/api/ai-business-dashboard/insights": "pages/api/ai-business-dashboard/insights.js",
+  "/api/ai-business-dashboard/kpis": "pages/api/ai-business-dashboard/kpis.js",
+  "/api/ai-business-dashboard/recommendations": "pages/api/ai-business-dashboard/recommendations.js",
+  "/api/ai-business-dashboard/todo": "pages/api/ai-business-dashboard/todo.js",
+  "/api/ai-business-dashboard/vip-movements": "pages/api/ai-business-dashboard/vip-movements.js",
+  "/api/ai-drop-predictor/predictions": "pages/api/ai-drop-predictor/predictions.js",
+  "/api/ai-roi-forecast/forecasts": "pages/api/ai-roi-forecast/forecasts.js",
+  "/api/ai-strategy-composer/goals": "pages/api/ai-strategy-composer/goals.js",
+  "/api/ai-strategy-composer/metrics": "pages/api/ai-strategy-composer/metrics.js",
+  "/api/ai-strategy-composer/strategies": "pages/api/ai-strategy-composer/strategies.js"
+}
