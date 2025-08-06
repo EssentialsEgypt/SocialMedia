@@ -230,7 +230,7 @@ export function EnhancedAutoMessages() {
   if (error) return <p className="p-4 text-center text-red-600">Error: {error}</p>
 
   return (
-    <ErrorBoundary fallback={<p className="p-4 text-center text-red-600">Something went wrong.</p>}>
+            <ErrorBoundary>
       <div className="space-y-6">
         {/* Header with Add New Message */}
         <Card>

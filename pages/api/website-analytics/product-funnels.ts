@@ -161,7 +161,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         if (device && device !== 'all') {
             filteredFunnels = filteredFunnels.map(p => ({
                 ...p,
-                deviceBreakdown: { [device]: p.deviceBreakdown[device as keyof typeof p.deviceBreakdown] }
+                deviceBreakdown: {
+                    mobile: device === 'mobile' ? p.deviceBreakdown.mobile : { views: 0, addToCart: 0, checkouts: 0, conversionRate: 0 },
+                    desktop: device === 'desktop' ? p.deviceBreakdown.desktop : { views: 0, addToCart: 0, checkouts: 0, conversionRate: 0 },
+                    tablet: device === 'tablet' ? p.deviceBreakdown.tablet : { views: 0, addToCart: 0, checkouts: 0, conversionRate: 0 }
+                }
             }))
         }
 

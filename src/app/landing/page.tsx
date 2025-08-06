@@ -158,7 +158,7 @@ export default function LandingPage() {
                     <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-xl rounded-3xl p-8 border border-purple-500/20 mb-12">
                         <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
                             <TrendingUp className="w-6 h-6 mr-3 text-green-400" />
-                            📈 Results You'll See:
+                            📈 Results You&apos;ll See:
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                             <div className="text-center">
@@ -409,7 +409,7 @@ export default function LandingPage() {
                     <div className="bg-gray-800/50 backdrop-blur-xl rounded-3xl p-8 border border-gray-700 mb-12">
                         <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
                             <Brain className="w-6 h-6 mr-3 text-pink-400" />
-                            🧠 Summary: Why We're Different
+                            🧠 Summary: Why We&apos;re Different
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="space-y-6">

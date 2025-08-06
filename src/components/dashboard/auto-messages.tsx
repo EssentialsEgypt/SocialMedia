@@ -105,7 +105,7 @@ export function AutoMessages() {
   if (error) return <p className="p-4 text-center text-red-600">Error: {error}</p>
 
   return (
-    <ErrorBoundary fallback={<p className="p-4 text-center text-red-600">Something went wrong.</p>}>
+    <ErrorBoundary>
       <Card>
         <CardHeader>
           <CardTitle>Auto Messages</CardTitle>

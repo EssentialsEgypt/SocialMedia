@@ -173,6 +173,12 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
         }
     }
 
+    const getMoodColorFromScore = (score: number) => {
+        if (score >= 70) return 'text-green-400'
+        if (score >= 40) return 'text-yellow-400'
+        return 'text-red-400'
+    }
+
     const getMemberMoodData = (memberId: string) => {
         return moodData.filter(d => d.memberId === memberId)
     }
@@ -190,7 +196,7 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
             }
         })
 
-        return moodScores.reduce((sum, score) => sum + score, 0) / moodScores.length
+        return moodScores.reduce((sum: number, score: number) => sum + score, 0) / moodScores.length || 0
     }
 
     const getTeamAverageMood = () => {
@@ -204,7 +210,7 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
         })
 
         return allMoodScores.length > 0
-            ? allMoodScores.reduce((sum, score) => sum + score, 0) / allMoodScores.length
+            ? allMoodScores.reduce((sum: number, score: number) => sum + score, 0) / allMoodScores.length
             : 0
     }
 
@@ -381,7 +387,7 @@ export function WeeklyMoodCheck({ teamMembers }: WeeklyMoodCheckProps) {
                                                 <p className="text-sm text-gray-400">{member.role}</p>
                                             </div>
                                         </div>
-                                        <Badge variant="outline" className={getMoodColor(avgMood)}>
+                                        <Badge variant="outline" className={getMoodColorFromScore(avgMood)}>
                                             {avgMood.toFixed(0)}% positive
                                         </Badge>
                                     </div>
