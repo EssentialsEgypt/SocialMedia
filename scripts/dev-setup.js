@@ -14,7 +14,7 @@ if (!fs.existsSync(envPath)) {
 
 NEXT_PUBLIC_SUPABASE_URL=https://placeholder.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder-anon-key
-JWT_SECRET=dev-jwt-secret
+JWT_SECRET=essentials-enhanced-super-secure-jwt-secret-2024-xyz789abc123def456ghi789jkl012mno345pqr678stu901vwx234yz567
 
 # Social Media API Keys (placeholder values)
 FACEBOOK_CLIENT_ID=placeholder-facebook-client-id

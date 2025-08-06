@@ -119,7 +119,7 @@ NODE_ENV=development
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-JWT_SECRET=your-jwt-secret
+JWT_SECRET=essentials-enhanced-super-secure-jwt-secret-2024-xyz789abc123def456ghi789jkl012mno345pqr678stu901vwx234yz567
 ```
 
 #### AI Services
