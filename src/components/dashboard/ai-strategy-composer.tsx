@@ -17,7 +17,7 @@ import {
   Package, Tag, Percent, Activity, History, Play, Pause, Settings,
   Download, Share2, Bell, CheckCircle, AlertTriangle, Star, ArrowRight,
   Plus, Edit, Trash, Eye, Copy, ExternalLink, ChevronRight, ChevronDown,
-  Lightbulb, Rocket, Shield, Crown, Heart, EyeOff, EyeOn, RefreshCw,
+  Lightbulb, Rocket, Shield, Crown, Heart, EyeOff, RefreshCw,
   Save, Loader2, Sparkles, Target as TargetIcon, Calendar as CalendarIcon,
   Users as UsersIcon, DollarSign as DollarSignIcon, BarChart3 as BarChart3Icon
 } from "lucide-react"

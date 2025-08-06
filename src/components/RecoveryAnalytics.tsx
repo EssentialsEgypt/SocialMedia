@@ -1,15 +1,15 @@
 "use client"
 
-import React from "react"
+import React, { useRef, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { 
-  BarChart3, 
-  TrendingUp, 
-  TrendingDown, 
-  DollarSign, 
+import {
+  BarChart3,
+  TrendingUp,
+  TrendingDown,
+  DollarSign,
   ShoppingCart,
   CheckCircle,
   Clock,
@@ -20,6 +20,30 @@ import {
   PieChart,
   Activity
 } from "lucide-react"
+import styles from "./RecoveryAnalytics.module.css"
+
+// Progress Bar Component
+interface ProgressBarProps {
+  percentage: number;
+  className?: string;
+}
+
+const ProgressBar: React.FC<ProgressBarProps> = ({ percentage, className = "" }) => {
+  const progressRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (progressRef.current) {
+      progressRef.current.style.setProperty('--data-width', percentage.toString());
+    }
+  }, [percentage]);
+
+  return (
+    <div
+      ref={progressRef}
+      className={`bg-gradient-to-r from-pink-500 to-purple-600 h-2 rounded-full ${styles['progress-bar']} ${className}`}
+    />
+  );
+};
 
 // Mock data for analytics
 const mockAnalyticsData = {
@@ -183,10 +207,7 @@ export function RecoveryAnalytics() {
                       <span className="text-sm text-gray-400">{reason.percentage}%</span>
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-pink-500 to-purple-600 h-2 rounded-full" 
-                        style={{ width: `${reason.percentage}%` }}
-                      />
+                      <ProgressBar percentage={reason.percentage} />
                     </div>
                   </div>
                 </div>
@@ -260,13 +281,12 @@ export function RecoveryAnalytics() {
                     </td>
                     <td className="py-3 text-center text-gray-300">{channel.recovered}</td>
                     <td className="py-3 text-center">
-                      <Badge 
-                        variant="outline" 
-                        className={`${
-                          channel.rate > 40 ? 'bg-green-500/20 text-green-400 border-green-500/30' :
-                          channel.rate > 20 ? 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' :
-                          'bg-red-500/20 text-red-400 border-red-500/30'
-                        }`}
+                      <Badge
+                        variant="outline"
+                        className={`${channel.rate > 40 ? 'bg-green-500/20 text-green-400 border-green-500/30' :
+                            channel.rate > 20 ? 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' :
+                              'bg-red-500/20 text-red-400 border-red-500/30'
+                          }`}
                       >
                         {channel.rate}%
                       </Badge>
@@ -294,7 +314,7 @@ export function RecoveryAnalytics() {
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>• WhatsApp has 2x higher recovery rate than email</li>
                 <li>• Free shipping offers perform 15% better than discounts</li>
-                <li>• High-value carts (>$200) need urgent follow-up</li>
+                <li>• High-value carts (&gt;$200) need urgent follow-up</li>
                 <li>• Mobile users abandon 3x more than desktop users</li>
               </ul>
             </div>
@@ -302,7 +322,7 @@ export function RecoveryAnalytics() {
               <h4 className="text-white font-medium">🚀 AI Recommendations</h4>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>• Increase WhatsApp automation for high-value carts</li>
-                <li>• Test free shipping on all carts >$150</li>
+                <li>• Test free shipping on all carts &gt;$150</li>
                 <li>• Optimize mobile checkout experience</li>
                 <li>• Send follow-ups within 1 hour for best results</li>
               </ul>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { cn } from '@/lib/utils'
+import styles from './loading-spinner.module.css'
 
 interface LoadingSpinnerProps {
     size?: 'sm' | 'md' | 'lg' | 'xl'
@@ -22,13 +23,9 @@ export function LoadingSpinner({ size = 'md', className, text }: LoadingSpinnerP
                     'animate-spin rounded-full border-2 border-transparent',
                     'bg-gradient-to-r from-pink-500 to-purple-600',
                     'bg-clip-border',
-                    sizeClasses[size]
+                    sizeClasses[size],
+                    styles.loadingSpinner
                 )}
-                style={{
-                    background: 'linear-gradient(135deg, #e84fe3 0%, #8338ec 100%)',
-                    WebkitMask: 'radial-gradient(circle at center, transparent 30%, black 30%)',
-                    mask: 'radial-gradient(circle at center, transparent 30%, black 30%)'
-                }}
             />
             {text && (
                 <p className="text-sm text-muted-foreground text-premium animate-pulse">
@@ -45,11 +42,10 @@ export function LoadingDots({ className }: { className?: string }) {
             {[0, 1, 2].map((i) => (
                 <div
                     key={i}
-                    className="w-2 h-2 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full animate-pulse"
-                    style={{
-                        animationDelay: `${i * 0.2}s`,
-                        animationDuration: '1s'
-                    }}
+                    className={cn(
+                        "w-2 h-2 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full animate-pulse",
+                        styles.loadingDot
+                    )}
                 />
             ))}
         </div>

@@ -31,7 +31,7 @@ import { FeedbackGenerator } from "./components/feedback-generator"
 import { ROITracker } from "./components/roi-tracker"
 import { LearningTracker } from "./components/learning-tracker"
 import { PrivateVault } from "./components/private-vault"
-import { TaskReflectionLog } from "./components/task-reflection-log"
+import { ReflectionLog } from "./components/task-reflection-log"
 import { DecisionLogSystem } from "./components/decision-log-system"
 import { HighlightsBoard } from "./components/highlights-board"
 import { PulsePolls } from "./components/pulse-polls"
@@ -511,7 +511,7 @@ function TeamManager() {
                         <AIMoodStressTracker teamMembers={teamMembers} />
                         <FeedbackGenerator teamMembers={teamMembers} />
                         <LearningTracker teamMembers={teamMembers} />
-                        <TaskReflectionLog teamMembers={teamMembers} />
+                        <ReflectionLog teamMembers={teamMembers} />
                         <DecisionLogSystem teamMembers={teamMembers} />
                         <HighlightsBoard teamMembers={teamMembers} />
                         <PulsePolls teamMembers={teamMembers} />
