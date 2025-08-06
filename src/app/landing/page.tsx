@@ -119,7 +119,7 @@ export default function LandingPage() {
                             Why Top Brands Trust Essentials Enhanced
                         </h2>
                         <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-                            We're not just another dashboard. We're your AI-powered operating system — built to do the thinking, tracking, and execution for you.
+                            We&apos;re not just another dashboard. We&apos;re your AI-powered operating system — built to do the thinking, tracking, and execution for you.
                         </p>
                     </div>
 
@@ -135,14 +135,14 @@ export default function LandingPage() {
                                     <Check className="w-5 h-5 text-green-400 mr-3" />
                                     <span className="text-white font-semibold">Instead of using 6 different apps</span>
                                 </div>
-                                <p className="text-gray-300 text-sm">you'll manage your entire business from one place.</p>
+                                <p className="text-gray-300 text-sm">you&apos;ll manage your entire business from one place.</p>
                             </div>
                             <div className="bg-gray-700/50 rounded-xl p-6">
                                 <div className="flex items-center mb-3">
                                     <Check className="w-5 h-5 text-green-400 mr-3" />
                                     <span className="text-white font-semibold">Instead of hiring 3 extra people</span>
                                 </div>
-                                <p className="text-gray-300 text-sm">you'll get automated alerts, AI tasks, and predictive analysis.</p>
+                                <p className="text-gray-300 text-sm">you&apos;ll get automated alerts, AI tasks, and predictive analysis.</p>
                             </div>
                             <div className="bg-gray-700/50 rounded-xl p-6">
                                 <div className="flex items-center mb-3">
@@ -425,14 +425,14 @@ export default function LandingPage() {
                                         <Brain className="w-5 h-5 mr-2 text-purple-400" />
                                         Built-in AI
                                     </h4>
-                                    <p className="text-gray-300 text-sm">Our AI isn't just a chatbot. It reads your data, spots problems, recommends actions, and does the heavy lifting for you.</p>
+                                    <p className="text-gray-300 text-sm">Our AI isn&apos;t just a chatbot. It reads your data, spots problems, recommends actions, and does the heavy lifting for you.</p>
                                 </div>
                                 <div className="bg-gray-700/50 rounded-xl p-6">
                                     <h4 className="text-lg font-semibold text-white mb-3 flex items-center">
                                         <Target className="w-5 h-5 mr-2 text-blue-400" />
                                         Business-Level Intelligence
                                     </h4>
-                                    <p className="text-gray-300 text-sm">We're not a "dashboard." We're a command center for real business owners who want to scale smart.</p>
+                                    <p className="text-gray-300 text-sm">We&apos;re not a &quot;dashboard.&quot; We&apos;re a command center for real business owners who want to scale smart.</p>
                                 </div>
                             </div>
                             <div className="space-y-6">
@@ -455,7 +455,7 @@ export default function LandingPage() {
                                         <Zap className="w-5 h-5 mr-2 text-red-400" />
                                         Automation That Replaces People
                                     </h4>
-                                    <p className="text-gray-300 text-sm">You won't need 10 tools and 10 employees. Essentials Enhanced will run 70% of it, faster and cheaper.</p>
+                                    <p className="text-gray-300 text-sm">You won&apos;t need 10 tools and 10 employees. Essentials Enhanced will run 70% of it, faster and cheaper.</p>
                                 </div>
                             </div>
                         </div>
@@ -469,7 +469,7 @@ export default function LandingPage() {
                         </h3>
                         <div className="text-center mb-8">
                             <p className="text-xl text-gray-300 mb-4">If your team is 100 people…</p>
-                            <p className="text-3xl font-bold text-green-400">You'll only need 30.</p>
+                                                            <p className="text-3xl font-bold text-green-400">You&apos;ll only need 30.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div>
@@ -541,7 +541,7 @@ export default function LandingPage() {
                                 ✨ You grow the brand.
                             </h3>
                             <h3 className="text-2xl font-bold text-white mb-6">
-                                We'll run the rest.
+                                We&apos;ll run the rest.
                             </h3>
                             <Button size="lg" className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-lg px-8 py-4">
                                 <Zap className="w-5 h-5 mr-2" />
@@ -858,7 +858,7 @@ export default function LandingPage() {
             <section className="relative z-10 px-6 py-20">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-16">
-                        A team of 100? You'll only need 30.
+                                                    A team of 100? You&apos;ll only need 30.
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

@@ -342,7 +342,7 @@ export function AIStrategyComposer() {
 
                 <div className="space-y-4">
                   <div>
-                    <Label htmlFor="goal-input">What's your goal?</Label>
+                    <Label htmlFor="goal-input">What&apos;s your goal?</Label>
                     <Textarea
                       id="goal-input"
                       placeholder="e.g., I want to generate 300,000 EGP this month, I need to hit 1,000 orders in the next 21 days, I&apos;m launching a new hoodie — help me do it right..."
